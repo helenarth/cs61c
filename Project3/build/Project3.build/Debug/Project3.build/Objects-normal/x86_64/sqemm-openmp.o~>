@@ -1,0 +1,70 @@
+In file included from /Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:1:
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/nmmintrin.h:35:3: error: #error "SSE4.2 instruction set not enabled"
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c: In function 'sgemm':
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:21: warning: implicit declaration of function 'calloc'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:21: warning: incompatible implicit declaration of built-in function 'calloc'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:26: error: '__m128' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:26: error: (Each undeclared identifier is reported only once
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:26: error: for each function it appears in.)
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:26: error: expected ';' before 'zVector'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:31: warning: initialization from incompatible pointer type
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:32: warning: initialization from incompatible pointer type
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:33: warning: initialization from incompatible pointer type
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:65: error: expected ';' before 'matrixTrans1'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:66: error: expected ';' before 'matrixTrans2'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:67: error: expected ';' before 'matrixTrans3'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:68: error: expected ';' before 'matrixTrans1a'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:69: error: expected ';' before 'matrixTrans2a'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:70: error: expected ';' before 'matrixTrans3a'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:71: error: expected ';' before 'matrixTrans1b'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:72: error: expected ';' before 'matrixTrans2b'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:73: error: expected ';' before 'matrixTrans3b'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:76: error: 'matrixTrans1' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:76: warning: implicit declaration of function '_mm_add_ps'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:76: warning: implicit declaration of function '_mm_mul_ps'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:76: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:76: warning: implicit declaration of function '_mm_loadu_ps'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:77: error: 'matrixTrans2' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:77: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:78: error: 'matrixTrans3' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:78: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:79: error: 'matrixTrans1a' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:79: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:79: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:80: error: 'matrixTrans2a' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:80: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:80: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:81: error: 'matrixTrans3a' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:81: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:81: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:82: error: 'matrixTrans1b' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:82: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:82: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:83: error: 'matrixTrans2b' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:83: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:83: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:84: error: 'matrixTrans3b' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:84: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:84: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:87: warning: implicit declaration of function '_mm_storeu_ps'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:89: error: 'p3' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:115: error: expected ';' before 'matrixTrans1'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:116: error: expected ';' before 'matrixTrans1a'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:117: error: expected ';' before 'matrixTrans1b'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:120: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:120: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:121: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:121: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:122: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:122: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:141: error: expected ';' before 'matrixTrans1'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:142: error: expected ';' before 'matrixTrans2'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:143: error: expected ';' before 'matrixTrans3'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:146: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:147: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:148: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:151: error: expected ';' before 'matrixTrans1'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:154: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:154: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:162: warning: implicit declaration of function 'free'
+/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c:32: warning: unused variable 'p1'

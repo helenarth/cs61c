@@ -1,0 +1,17 @@
+Problem 1
+
+for stride = 256100% miss rate
+since each stride will replace the previous data in a direct-mapped cache.
+
+for stride = 25566.67% miss rate
+Miss rate = 1/8(throughput) since only each 8th stride will replace previous data since 255 % 8 = 7.
+
+Problem 2
+in  a .c file.  I could not get SSE to work but did get an increase of 2.0 with unrolling.  With SSE I only get incorrect values.  
+
+
+Problem 3
+
+a)1/(1 - 40% + 40%/4) = 1.43
+b)1/(1 - 40% + 40%/8) = 1.54
+c)n->inf: 1/(1 - 40% + 40%/n) = 1 / 60% = 1.67d)powwer dissipation and heat are the main problems

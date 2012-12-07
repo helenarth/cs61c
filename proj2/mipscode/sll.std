@@ -1,0 +1,36 @@
+Executing instruction at 00400000: 24081bcd
+addiu	$8,$0,7117
+New pc = 00400004
+Updated r08 to 00001bcd
+No memory location was updated.
+Executing instruction at 00400004: 00085080
+sll	$10,$8,2
+New pc = 00400008
+Updated r10 to 00006f34
+No memory location was updated.
+Executing instruction at 00400008: 3c085643
+lui	$8,0x5643
+New pc = 0040000c
+Updated r08 to 56430000
+No memory location was updated.
+Executing instruction at 0040000c: 3508cdab
+ori	$8,$8,0xcdab
+New pc = 00400010
+Updated r08 to 5643cdab
+No memory location was updated.
+Executing instruction at 00400010: 00085000
+sll	$10,$8,0
+New pc = 00400014
+Updated r10 to 5643cdab
+No memory location was updated.
+Executing instruction at 00400014: 000850c0
+sll	$10,$8,3
+New pc = 00400018
+Updated r10 to b21e6d58
+No memory location was updated.
+Executing instruction at 00400018: 00085340
+sll	$10,$8,13
+New pc = 0040001c
+Updated r10 to 79b56000
+No memory location was updated.
+Executing instruction at 0040001c: 20000000

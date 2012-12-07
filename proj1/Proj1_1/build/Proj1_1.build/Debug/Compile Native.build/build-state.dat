@@ -1,0 +1,207 @@
+TCompile Native
+v7
+r0
+t369982318.425288
+cCheck dependencies
+cPhaseScriptExecution "Run javah" "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Script-89D0F1360F394748007831A7.sh"
+cProcessPCH /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-fdnbpnrhsnokhccfpclvjphyildd/AppKit.h.gch /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-drtdnswrgwoafrdiblslldtkyqqw/AppKit.h.gch /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-czlzwlgpckmovicckhoahvjslotk/AppKit.h.gch /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal ppc objective-c com.apple.compilers.gcc.4_2
+
+N/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000501629A7000000000091AC00
+t1343629735
+s9546752
+
+N/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000501628E00000000000006730
+t1343629536
+s26416
+
+N/System/Library/Frameworks/JavaVM.framework/JavaVM
+c0000000050566EB90000000000019430
+t1347841721
+s103472
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/JavaNativeFoundation
+c0000000050566EB90000000000026DF0
+t1347841721
+s159216
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/libAddressBook.jnilib
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/i386/AddressBook.LinkFileList
+c00000000505BEA18000000000000007F
+t1348200984
+s127
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/i386/NativeAddressBook.o
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/i386/libAddressBook.jnilib
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/ppc/AddressBook.LinkFileList
+c00000000505BEA18000000000000007E
+t1348200984
+s126
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/ppc/NativeAddressBook.o
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/ppc/libAddressBook.jnilib
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/x86_64/AddressBook.LinkFileList
+c00000000505BEA180000000000000081
+t1348200984
+s129
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/x86_64/NativeAddressBook.o
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/x86_64/libAddressBook.jnilib
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Script-89D0F1360F394748007831A7.sh
+c00000000505BEA1800000000000001C5
+t1348200984
+s453
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/src/native/NativeAddressBook.h
+c00000000505BE98200000000000000A7
+t1348200834
+s167
+i<Cocoa/Cocoa.h>
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/src/native/NativeAddressBook.m
+c00000000505BE9820000000000001534
+t1348200834
+s5428
+i"NativeAddressBook.h"
+i<AddressBook/AddressBook.h>
+i<JavaNativeFoundation/JavaNativeFoundation.h>
+i"com_example_app_addressbook_NativeAddressBook.h"
+
+N/var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-czlzwlgpckmovicckhoahvjslotk/AppKit.h.gch
+t2
+s0
+
+N/var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-drtdnswrgwoafrdiblslldtkyqqw/AppKit.h.gch
+t2
+s0
+
+N/var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-fdnbpnrhsnokhccfpclvjphyildd/AppKit.h.gch
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies369982317#369982317#0(0"0(0#1#0"4320133120#0"0#
+
+CCompileC "build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/i386/NativeAddressBook.o" /Users/Sabersimon/Desktop/cs61c/Proj1_1/src/native/NativeAddressBook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/ppc/NativeAddressBook.o" /Users/Sabersimon/Desktop/cs61c/Proj1_1/src/native/NativeAddressBook.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/x86_64/NativeAddressBook.o" /Users/Sabersimon/Desktop/cs61c/Proj1_1/src/native/NativeAddressBook.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCreateUniversalBinary /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/libAddressBook.jnilib normal "x86_64 i386 ppc"
+r0
+
+CLd "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/i386/libAddressBook.jnilib" normal i386
+r0
+
+CLd "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/ppc/libAddressBook.jnilib" normal ppc
+r0
+
+CLd "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/x86_64/libAddressBook.jnilib" normal x86_64
+r0
+
+CPhaseScriptExecution "Run javah" "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Script-89D0F1360F394748007831A7.sh"
+s369982317.101245
+e369982318.404519
+r0
+xPhaseScriptExecution
+xRun javah
+x/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Script-89D0F1360F394748007831A7.sh
+ojava.util.zip.ZipException: error in opening zip file
+o	at java.util.zip.ZipFile.open(Native Method)
+o	at java.util.zip.ZipFile.<init>(ZipFile.java:127)
+o	at java.util.zip.ZipFile.<init>(ZipFile.java:88)
+o	at sun.tools.jar.Main.list(Main.java:977)
+o	at sun.tools.jar.Main.run(Main.java:222)
+o	at sun.tools.jar.Main.main(Main.java:1147)
+ojava.util.zip.ZipException: error in opening zip file
+o	at java.util.zip.ZipFile.open(Native Method)
+o	at java.util.zip.ZipFile.<init>(ZipFile.java:127)
+o	at java.util.zip.ZipFile.<init>(ZipFile.java:88)
+o	at sun.tools.jar.Main.list(Main.java:977)
+o	at sun.tools.jar.Main.run(Main.java:222)
+o	at sun.tools.jar.Main.main(Main.java:1147)
+oError: No classes were specified on the command line.  Try -help.
+lSLF07#2@35"Run custom shell script 'Run javah'369982317#369982318#0(767"java.util.zip.ZipException: error in opening zip file	at java.util.zip.ZipFile.open(Native Method)	at java.util.zip.ZipFile.<init>(ZipFile.java:127)	at java.util.zip.ZipFile.<init>(ZipFile.java:88)	at sun.tools.jar.Main.list(Main.java:977)	at sun.tools.jar.Main.run(Main.java:222)	at sun.tools.jar.Main.main(Main.java:1147)java.util.zip.ZipException: error in opening zip file	at java.util.zip.ZipFile.open(Native Method)	at java.util.zip.ZipFile.<init>(ZipFile.java:127)	at java.util.zip.ZipFile.<init>(ZipFile.java:88)	at sun.tools.jar.Main.list(Main.java:977)	at sun.tools.jar.Main.run(Main.java:222)	at sun.tools.jar.Main.main(Main.java:1147)Error: No classes were specified on the command line.  Try -help.Command /bin/sh failed with exit code 1516(13@54"java.util.zip.ZipException: error in opening zip file369982317#0#54#0(1@0"0(13@46"	at java.util.zip.ZipFile.open(Native Method)369982317#54#46#0(1@0"0(13@51"	at java.util.zip.ZipFile.<init>(ZipFile.java:127)369982317#100#51#0(1@0"0(13@50"	at java.util.zip.ZipFile.<init>(ZipFile.java:88)369982317#151#50#0(1@0"0(13@43"	at sun.tools.jar.Main.list(Main.java:977)369982317#201#43#0(1@0"0(13@42"	at sun.tools.jar.Main.run(Main.java:222)369982317#244#42#0(1@0"0(13@44"	at sun.tools.jar.Main.main(Main.java:1147)369982317#286#44#0(1@0"0(13@54"java.util.zip.ZipException: error in opening zip file369982317#330#54#0(1@0"0(13@46"	at java.util.zip.ZipFile.open(Native Method)369982317#384#46#0(1@0"0(13@51"	at java.util.zip.ZipFile.<init>(ZipFile.java:127)369982317#430#51#0(1@0"0(13@50"	at java.util.zip.ZipFile.<init>(ZipFile.java:88)369982317#481#50#0(1@0"0(13@43"	at sun.tools.jar.Main.list(Main.java:977)369982317#531#43#0(1@0"0(13@42"	at sun.tools.jar.Main.run(Main.java:222)369982317#574#42#0(1@0"0(13@44"	at sun.tools.jar.Main.main(Main.java:1147)369982317#616#44#0(1@0"0(13@66"Error: No classes were specified on the command line.  Try -help.369982318#660#66#0(1@0"0(4@40"Command /bin/sh failed with exit code 15369982318#18446744073709551615#0#0(1@0"0(0#0#0"4320133120#15609"    cd /Users/Sabersimon/Desktop/cs61c/Proj1_1    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER Sabersimon    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/Sabersimon/Desktop/cs61c/Proj1_1/build    setenv BUILD_ROOT /Users/Sabersimon/Desktop/cs61c/Proj1_1/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug    setenv CACHE_ROOT /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/libAddressBook.jnilib    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug    setenv CONFIGURATION_TEMP_DIR /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH ppc    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Proj1_1.dst    setenv DWARF_DSYM_FILE_NAME libAddressBook.jnilib.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug    setenv DYLIB_COMPATIBILITY_VERSION 1    setenv DYLIB_CURRENT_VERSION 1    setenv DYLIB_INSTALL_NAME_BASE /usr/local/lib    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLE_EXTENSION jnilib    setenv EXECUTABLE_NAME libAddressBook.jnilib    setenv EXECUTABLE_PATH libAddressBook.jnilib    setenv EXECUTABLE_PREFIX lib    setenv EXECUTABLE_SUFFIX .jnilib    setenv FILE_LIST "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/FixedFiles"    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug\"  \"/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME libAddressBook.jnilib    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_MODEL_TUNING G5    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/include\" \"/System/Library/Frameworks/JavaVM.framework/Headers\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PREPROCESS NO    setenv INSTALL_DIR /tmp/Proj1_1.dst/usr/local/lib    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER Sabersimon    setenv INSTALL_PATH /usr/local/lib    setenv INSTALL_ROOT /tmp/Proj1_1.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DYLIB_INSTALL_NAME /usr/local/lib/libAddressBook.jnilib    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/AddressBook-LinkMap-normal-ppc.txt"    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/i386/AddressBook.LinkFileList"    setenv LINK_FILE_LIST_normal_ppc "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/ppc/AddressBook.LinkFileList"    setenv LINK_FILE_LIST_normal_x86_64 "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal/x86_64/AddressBook.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_dylib    setenv MAC_OS_X_VERSION_ACTUAL 1081    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0801    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Objects-normal"    setenv OBJROOT /Users/Sabersimon/Desktop/cs61c/Proj1_1/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Foundation -framework AppKit"    setenv PACKAGE_TYPE com.apple.package-type.mach-o-dylib    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/PkgInfo"    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLATFORM_PRODUCT_BUILD_VERSION 10M2423    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /usr/local/include    setenv PRODUCT_NAME AddressBook    setenv PRODUCT_SETTINGS_PATH     setenv PRODUCT_TYPE com.apple.product-type.library.dynamic    setenv PROFILING_CODE NO    setenv PROJECT Proj1_1    setenv PROJECT_DERIVED_FILE_DIR /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/DerivedSources    setenv PROJECT_DIR /Users/Sabersimon/Desktop/cs61c/Proj1_1    setenv PROJECT_FILE_PATH /Users/Sabersimon/Desktop/cs61c/Proj1_1/Proj1_1.xcodeproj    setenv PROJECT_NAME Proj1_1    setenv PROJECT_TEMP_DIR /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build    setenv PUBLIC_HEADERS_FOLDER_PATH /usr/local/include    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/ResourceManagerResources"    setenv REZ_EXECUTABLE YES    setenv REZ_OBJECTS_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/DerivedSources    setenv SHARED_PRECOMPS_DIR /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/Sabersimon/Desktop/cs61c/Proj1_1    setenv SRCROOT /Users/Sabersimon/Desktop/cs61c/Proj1_1    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SYMBOL_REPOSITORY_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/SymbolRepositories"    setenv SYMROOT /Users/Sabersimon/Desktop/cs61c/Proj1_1/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME "Compile Native"    setenv TARGET_BUILD_DIR /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug    setenv TARGET_NAME "Compile Native"    setenv TARGET_TEMP_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build"    setenv TEMP_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build"    setenv TEMP_FILES_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build"    setenv TEMP_FILE_DIR "/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build"    setenv TEMP_ROOT /Users/Sabersimon/Desktop/cs61c/Proj1_1/build    setenv UID 501    setenv UNSTRIPPED_PRODUCT NO    setenv USER Sabersimon    setenv USER_APPS_DIR /Users/Sabersimon/Applications    setenv USER_LIBRARY_DIR /Users/Sabersimon/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSION_INFO_BUILDER Sabersimon    setenv VERSION_INFO_FILE AddressBook_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:AddressBook  PROJECT:Proj1_1-\""    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c "\"/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/Script-89D0F1360F394748007831A7.sh\""15#
+
+CProcessPCH /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-czlzwlgpckmovicckhoahvjslotk/AppKit.h.gch /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal ppc objective-c com.apple.compilers.gcc.4_2
+s369982318.414179
+e369982318.425148
+r0
+xProcessPCH
+x/var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-czlzwlgpckmovicckhoahvjslotk/AppKit.h.gch
+x/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+opowerpc-apple-darwin10-gcc-4.2.1: /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h: No such file or directory
+opowerpc-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effect
+opowerpc-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@71"Precompile /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h369982318#369982318#0(333"powerpc-apple-darwin10-gcc-4.2.1: /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h: No such file or directorypowerpc-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effectpowerpc-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/usr/bin/gcc-4.2 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.2 failed with exit code 1369982318#18446744073709551615#0#0(1@0"0(0#0#60"/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h4320133120#1069"    cd /Users/Sabersimon/Desktop/cs61c/Proj1_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -mtune=G5 -gdwarf-2 "-I/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/AddressBook.hmap" -F/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -I/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/include -I/System/Library/Frameworks/JavaVM.framework/Headers "-I/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/DerivedSources/ppc" "-I/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/DerivedSources" -c /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-czlzwlgpckmovicckhoahvjslotk/AppKit.h.gch1#
+
+CProcessPCH /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-drtdnswrgwoafrdiblslldtkyqqw/AppKit.h.gch /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
+s369982318.405341
+e369982318.421750
+r0
+xProcessPCH
+x/var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-drtdnswrgwoafrdiblslldtkyqqw/AppKit.h.gch
+x/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@71"Precompile /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h369982318#369982318#0(324"i686-apple-darwin10-gcc-4.2.1: /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/usr/bin/gcc-4.2 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.2 failed with exit code 1369982318#18446744073709551615#0#0(1@0"0(0#0#60"/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h4320133120#1061"    cd /Users/Sabersimon/Desktop/cs61c/Proj1_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -gdwarf-2 "-I/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/AddressBook.hmap" -F/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -I/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/include -I/System/Library/Frameworks/JavaVM.framework/Headers "-I/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/DerivedSources/i386" "-I/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/DerivedSources" -c /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-drtdnswrgwoafrdiblslldtkyqqw/AppKit.h.gch1#
+
+CProcessPCH /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-fdnbpnrhsnokhccfpclvjphyildd/AppKit.h.gch /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s369982318.404607
+e369982318.413970
+r0
+xProcessPCH
+x/var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-fdnbpnrhsnokhccfpclvjphyildd/AppKit.h.gch
+x/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@71"Precompile /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h369982318#369982318#0(324"i686-apple-darwin10-gcc-4.2.1: /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/usr/bin/gcc-4.2 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.2 failed with exit code 1369982318#18446744073709551615#0#0(1@0"0(0#0#60"/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h4320133120#1065"    cd /Users/Sabersimon/Desktop/cs61c/Proj1_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -gdwarf-2 "-I/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/AddressBook.hmap" -F/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug -F/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks -I/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/include -I/System/Library/Frameworks/JavaVM.framework/Headers "-I/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/DerivedSources/x86_64" "-I/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Proj1_1.build/Debug/Compile Native.build/DerivedSources" -c /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-fdnbpnrhsnokhccfpclvjphyildd/AppKit.h.gch1#
+

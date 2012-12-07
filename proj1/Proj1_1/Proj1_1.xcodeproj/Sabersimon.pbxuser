@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 89D0F2C50F40E784007831A7 /* Proj1_1 */;
+		activeTarget = 89D0F1C90F3B704E007831A7 /* Proj1_1 */;
+		breakpoints = (
+			EC844C86160C216E00C0D069 /* Proj1_1.java:154 */,
+			EC844C89160C217E00C0D069 /* Proj1_1.java:165 */,
+		);
+		codeSenseManager = 89D0F2CF0F40E7A1007831A7 /* Code sense */;
+		executables = (
+			89D0F2C50F40E784007831A7 /* Proj1_1 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					131,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					858,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					203,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 370290917;
+			PBXWorkspaceStateSaveDate = 370290917;
+		};
+		perUserProjectItems = {
+			EC4AC7AC160E67D800D08701 /* PBXTextBookmark */ = EC4AC7AC160E67D800D08701 /* PBXTextBookmark */;
+			EC8253361612328900B4A229 /* PBXTextBookmark */ = EC8253361612328900B4A229 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 89D0F2CE0F40E7A1007831A7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	89D0F0230F392F20007831A7 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {863, 821}}";
+			sepNavSelRange = "{332, 0}";
+			sepNavVisRange = "{0, 1078}";
+			sepNavWindowFrame = "{{15, -5}, {922, 878}}";
+		};
+	};
+	89D0F0480F393A6F007831A7 /* Compile Java */ = {
+		activeExec = 0;
+	};
+	89D0F04F0F393AD9007831A7 /* Compile Native */ = {
+		activeExec = 0;
+	};
+	89D0F1C90F3B704E007831A7 /* Proj1_1 */ = {
+		activeExec = 0;
+	};
+	89D0F2C50F40E784007831A7 /* Proj1_1 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Proj1_1;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProductDirectory>>";
+	};
+	89D0F2CE0F40E7A1007831A7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	89D0F2CF0F40E7A1007831A7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D1107260486CEB800E47090 /* Assemble Application */ = {
+		activeExec = 0;
+		executables = (
+			89D0F2C50F40E784007831A7 /* Proj1_1 */,
+		);
+	};
+	EC4AC7AC160E67D800D08701 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC4AC7AD160E67D800D08701 /* Proj1_1.java */;
+		name = "Proj1_1.java: 1";
+		rLen = 14791;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1211;
+		vrLoc = 7428;
+	};
+	EC4AC7AD160E67D800D08701 /* Proj1_1.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = Proj1_1.java;
+		path = /Users/Sabersimon/Desktop/cs61c/Proj1_1/src/java/com/example/Proj1_1.java;
+		sourceTree = "<absolute>";
+	};
+	EC8253361612328900B4A229 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC8253371612328900B4A229 /* Proj1_1.java */;
+		name = "Proj1_1.java: 1";
+		rLen = 14791;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1293;
+		vrLoc = 7406;
+	};
+	EC8253371612328900B4A229 /* Proj1_1.java */ = {
+		isa = PBXFileReference;
+		name = Proj1_1.java;
+		path = /Users/Sabersimon/Desktop/cs61c/Proj1_1/src/java/com/example/Proj1_1.java;
+		sourceTree = "<absolute>";
+	};
+	EC844C86160C216E00C0D069 /* Proj1_1.java:154 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = EC844C87160C216E00C0D069 /* Proj1_1.java */;
+		functionName = "map(WritableComparable docID, Text docContents, Context context)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 154;
+		modificationTime = 369893742.992467;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	EC844C87160C216E00C0D069 /* Proj1_1.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = Proj1_1.java;
+		path = /Users/Sabersimon/Desktop/cs61c/Proj1_1/src/java/com/example/Proj1_1.java;
+		sourceTree = "<absolute>";
+	};
+	EC844C89160C217E00C0D069 /* Proj1_1.java:165 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = EC844C87160C216E00C0D069 /* Proj1_1.java */;
+		functionName = "map(WritableComparable docID, Text docContents, Context context)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 165;
+		modificationTime = 369982308.923117;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+}

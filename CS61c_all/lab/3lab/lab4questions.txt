@@ -1,0 +1,35 @@
+How do you pass command line arguments to a program when using gdb?
+use run command in following way
+run arg1 arg2 ... argn
+
+How do you set a breakpoint which only occurs when a set of conditions is true (eg when certain variables are a certain value)?
+you can use a conditional break statement
+
+How do you execute the next line of C code in the program after a break?
+you can use step
+
+If the next line is a function call, you'll execute the call in one step. How do you execute the C code, line by line, inside the function call?
+you can specify which function you want to add breakpoint to 
+break function
+USE next
+upon reaching a function call next will put you to the next line skipping what happens in function 
+
+USE step instead.
+
+How do you continue running the program after breaking?
+continue
+
+How can you see the value of a variable (or even an expression) in gdb?
+show env => all variables within enviroment
+show env variable_name => specific variable
+
+How do you configure gdb so it prints the value of a variable after every step?
+set watch point
+watch variable_name
+
+How do you print a list of all variables and their values in the current function?
+show env
+info locals
+
+How do you exit out of gdb?	
+quit

@@ -1,0 +1,219 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = D2AAC045055464E500DB518D /*  toFloat */;
+		addToTargets = (
+			D2AAC045055464E500DB518D /*  toFloat */,
+		);
+		codeSenseManager = EC74DA2F161913B80035A799 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					244,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					356,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					296,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					316,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 370742192;
+			PBXWorkspaceStateSaveDate = 370742192;
+		};
+		perUserProjectItems = {
+			EC74DA6C161960570035A799 /* PBXTextBookmark */ = EC74DA6C161960570035A799 /* PBXTextBookmark */;
+			EC74DA6E161960570035A799 /* PBXTextBookmark */ = EC74DA6E161960570035A799 /* PBXTextBookmark */;
+			EC74DA7E161962170035A799 /* PBXTextBookmark */ = EC74DA7E161962170035A799 /* PBXTextBookmark */;
+			EC74DA8516196E3F0035A799 /* PBXTextBookmark */ = EC74DA8516196E3F0035A799 /* PBXTextBookmark */;
+			EC74DA8616196E3F0035A799 /* PBXTextBookmark */ = EC74DA8616196E3F0035A799 /* PBXTextBookmark */;
+			EC74DA8816196E3F0035A799 /* PBXTextBookmark */ = EC74DA8816196E3F0035A799 /* PBXTextBookmark */;
+		};
+		sourceControlManager = EC74DA2E161913B80035A799 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D2AAC045055464E500DB518D /*  toFloat */ = {
+		activeExec = 0;
+	};
+	EC74DA2E161913B80035A799 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	EC74DA2F161913B80035A799 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	EC74DA33161914780035A799 /* toFloat.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 371}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 133}";
+		};
+	};
+	EC74DA34161914780035A799 /* toFloat.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 546}}";
+			sepNavSelRange = "{264, 0}";
+			sepNavVisRange = "{132, 241}";
+			sepNavWindowFrame = "{{61, 369}, {765, 402}}";
+		};
+	};
+	EC74DA6C161960570035A799 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC74DA6D161960570035A799 /* processor.c */;
+		name = "processor.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 404;
+		vrLoc = 0;
+	};
+	EC74DA6D161960570035A799 /* processor.c */ = {
+		isa = PBXFileReference;
+		name = processor.c;
+		path = "/var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/T/fz3temp-1/processor.c";
+		sourceTree = "<absolute>";
+	};
+	EC74DA6E161960570035A799 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC74DA6F161960570035A799 /* toFloat.i */;
+		name = "toFloat.i: 1079";
+		rLen = 0;
+		rLoc = 27040;
+		rType = 0;
+		vrLen = 1501;
+		vrLoc = 0;
+	};
+	EC74DA6F161960570035A799 /* toFloat.i */ = {
+		isa = PBXFileReference;
+		name = toFloat.i;
+		path = "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/Objects-normal/x86_64/toFloat.i";
+		sourceTree = "<absolute>";
+	};
+	EC74DA7E161962170035A799 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC74DA33161914780035A799 /* toFloat.h */;
+		name = "toFloat.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 133;
+		vrLoc = 0;
+	};
+	EC74DA8516196E3F0035A799 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC74DA34161914780035A799 /* toFloat.c */;
+		name = "toFloat.c: 22";
+		rLen = 406;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 409;
+		vrLoc = 328;
+	};
+	EC74DA8616196E3F0035A799 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC74DA8716196E3F0035A799 /* disassemble.c */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	EC74DA8716196E3F0035A799 /* disassemble.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = disassemble.c;
+		path = "/var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/T/fz3temp-1/disassemble.c";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {677, 2106}}";
+			sepNavSelRange = "{0, 4835}";
+			sepNavVisRange = "{3976, 859}";
+		};
+	};
+	EC74DA8816196E3F0035A799 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC74DA8916196E3F0035A799 /* disassemble.c */;
+		name = "disassemble.c: 1";
+		rLen = 4835;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 3976;
+	};
+	EC74DA8916196E3F0035A799 /* disassemble.c */ = {
+		isa = PBXFileReference;
+		name = disassemble.c;
+		path = "/var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/T/fz3temp-1/disassemble.c";
+		sourceTree = "<absolute>";
+	};
+}

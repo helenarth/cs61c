@@ -1,0 +1,102 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = D2AAC09C05546B4700DB518D /* erase */;
+		codeSenseManager = EC82536116142E9D00B4A229 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					356,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 370421374;
+			PBXWorkspaceStateSaveDate = 370421374;
+		};
+		perUserProjectItems = {
+			EC825378161437D300B4A229 /* PBXTextBookmark */ = EC825378161437D300B4A229 /* PBXTextBookmark */;
+			EC825379161437D300B4A229 /* XCBuildMessageTextBookmark */ = EC825379161437D300B4A229 /* XCBuildMessageTextBookmark */;
+			EC82537A161437D300B4A229 /* PBXTextBookmark */ = EC82537A161437D300B4A229 /* PBXTextBookmark */;
+		};
+		sourceControlManager = EC82536016142E9D00B4A229 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	50149BD909E781A5002DEE6A /* erase.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 312}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 290}";
+		};
+	};
+	5073E0C409E734A800EC74B6 /* erase.cp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 299}}";
+			sepNavSelRange = "{200, 0}";
+			sepNavVisRange = "{29, 234}";
+		};
+	};
+	D2AAC09C05546B4700DB518D /* erase */ = {
+		activeExec = 0;
+	};
+	EC82536016142E9D00B4A229 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	EC82536116142E9D00B4A229 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	EC825378161437D300B4A229 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50149BD909E781A5002DEE6A /* erase.h */;
+		name = "erase.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 0;
+	};
+	EC825379161437D300B4A229 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Variable or field 'erase' declared void";
+		fRef = 5073E0C409E734A800EC74B6 /* erase.cp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 12;
+		rType = 1;
+	};
+	EC82537A161437D300B4A229 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5073E0C409E734A800EC74B6 /* erase.cp */;
+		name = "erase.cp: 15";
+		rLen = 0;
+		rLoc = 200;
+		rType = 0;
+		vrLen = 234;
+		vrLoc = 29;
+	};
+}

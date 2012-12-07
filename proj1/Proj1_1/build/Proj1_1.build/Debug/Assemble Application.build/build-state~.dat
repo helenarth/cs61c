@@ -1,0 +1,156 @@
+TAssemble Application
+v7
+r0
+t369893786.590554
+cCheck dependencies
+cProcessInfoPlistFile /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Info.plist resources/Info.plist
+cPBXCp build/Debug/Proj1_1.app/Contents/MacOS/JavaApplicationStub /System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/MacOS/JavaApplicationStub
+cPBXCp build/Debug/Proj1_1.app/Contents/Resources/Java/AddressBook.jar build/Debug/AddressBook.jar
+cPBXCp build/Debug/Proj1_1.app/Contents/Resources/Java/libAddressBook.jnilib build/Debug/libAddressBook.jnilib
+cCopyStringsFile /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Resources/English.lproj/InfoPlist.strings resources/English.lproj/InfoPlist.strings
+cCpResource build/Debug/Proj1_1.app/Contents/Resources/GenericApp.icns /System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/GenericApp.icns
+cCpResource build/Debug/Proj1_1.app/Contents/Resources/English.lproj/Credits.rtf resources/English.lproj/Credits.rtf
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/GenericApp.icns
+c00000000502593780000000000022D3C
+t1344639864
+s142652
+
+N/System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/MacOS/JavaApplicationStub
+c0000000050566EB90000000000008900
+t1347841721
+s35072
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/AddressBook.jar
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Info.plist
+t1348200986
+s1112
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/MacOS/JavaApplicationStub
+t1348200986
+s35072
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/PkgInfo
+t1348200986
+s8
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Resources/English.lproj/Credits.rtf
+t1348200986
+s436
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1348200986
+s184
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Resources/GenericApp.icns
+t1348200986
+s142652
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Resources/Java/AddressBook.jar
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Resources/Java/libAddressBook.jnilib
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/libAddressBook.jnilib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/resources/English.lproj/Credits.rtf
+c00000000505BE98200000000000001B4
+t1348200834
+s436
+
+N/Users/Sabersimon/Desktop/cs61c/Proj1_1/resources/English.lproj/InfoPlist.strings
+c00000000505BE98200000000000000B8
+t1348200834
+s184
+
+Nresources/Info.plist
+c00000000505BE9820000000000000458
+t1348200834
+s1112
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies369893786#369893786#0(0"0(0#1#0"4320133120#0"0#
+
+CCopyStringsFile /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Resources/English.lproj/InfoPlist.strings resources/English.lproj/InfoPlist.strings
+s369893786.326006
+e369893786.590472
+r1
+xCopyStringsFile
+x/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Resources/English.lproj/InfoPlist.strings
+xresources/English.lproj/InfoPlist.strings
+lSLF07#2@46"Copy resources/English.lproj/InfoPlist.strings369893786#369893786#0(0"0(0#0#81"/Users/Sabersimon/Desktop/cs61c/Proj1_1/resources/English.lproj/InfoPlist.strings4320133120#378"    cd /Users/Sabersimon/Desktop/cs61c/Proj1_1    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 resources/English.lproj/InfoPlist.strings --outdir /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/Proj1_1.app/Contents/Resources/English.lproj/Credits.rtf resources/English.lproj/Credits.rtf
+s369893786.328648
+e369893786.349784
+r1
+xCpResource
+xbuild/Debug/Proj1_1.app/Contents/Resources/English.lproj/Credits.rtf
+xresources/English.lproj/Credits.rtf
+lSLF07#2@40"Copy resources/English.lproj/Credits.rtf369893786#369893786#0(0"0(0#0#75"/Users/Sabersimon/Desktop/cs61c/Proj1_1/resources/English.lproj/Credits.rtf4320133120#382"    cd /Users/Sabersimon/Desktop/cs61c/Proj1_1    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Sabersimon/Desktop/cs61c/Proj1_1/resources/English.lproj/Credits.rtf /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/Proj1_1.app/Contents/Resources/GenericApp.icns /System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/GenericApp.icns
+s369893786.326856
+e369893786.404046
+r1
+xCpResource
+xbuild/Debug/Proj1_1.app/Contents/Resources/GenericApp.icns
+x/System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/GenericApp.icns
+lSLF07#2@85"Copy /System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/GenericApp.icns369893786#369893786#0(0"0(0#0#80"/System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/GenericApp.icns4320133120#373"    cd /Users/Sabersimon/Desktop/cs61c/Proj1_1    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/GenericApp.icns /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Resources0#
+
+CPBXCp build/Debug/Proj1_1.app/Contents/MacOS/JavaApplicationStub /System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/MacOS/JavaApplicationStub
+s369893786.279742
+e369893786.312721
+r1
+xPBXCp
+xbuild/Debug/Proj1_1.app/Contents/MacOS/JavaApplicationStub
+x/System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/MacOS/JavaApplicationStub
+lSLF07#2@95"Copy /System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/MacOS/JavaApplicationStub369893786#369893786#0(0"0(0#0#90"/System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/MacOS/JavaApplicationStub4320133120#379"    cd /Users/Sabersimon/Desktop/cs61c/Proj1_1    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/MacOS/JavaApplicationStub /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/MacOS0#
+
+CPBXCp build/Debug/Proj1_1.app/Contents/Resources/Java/AddressBook.jar build/Debug/AddressBook.jar
+s369893786.312816
+e369893786.324759
+r0
+xPBXCp
+xbuild/Debug/Proj1_1.app/Contents/Resources/Java/AddressBook.jar
+xbuild/Debug/AddressBook.jar
+opbxcp: AddressBook.jar: No such file or directory
+lSLF07#2@32"Copy build/Debug/AddressBook.jar369893786#369893786#0(50"pbxcp: AddressBook.jar: No such file or directory1(4@49"pbxcp: AddressBook.jar: No such file or directory369893786#18446744073709551615#0#0(6@0"369893786#0#0#0#0#0"0(0#0#67"/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/AddressBook.jar4320133120#365"    cd /Users/Sabersimon/Desktop/cs61c/Proj1_1    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/AddressBook.jar /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Resources/Java1#
+
+CPBXCp build/Debug/Proj1_1.app/Contents/Resources/Java/libAddressBook.jnilib build/Debug/libAddressBook.jnilib
+s369893786.313794
+e369893786.325945
+r0
+xPBXCp
+xbuild/Debug/Proj1_1.app/Contents/Resources/Java/libAddressBook.jnilib
+xbuild/Debug/libAddressBook.jnilib
+opbxcp: libAddressBook.jnilib: No such file or directory
+lSLF07#2@38"Copy build/Debug/libAddressBook.jnilib369893786#369893786#0(56"pbxcp: libAddressBook.jnilib: No such file or directory1(4@55"pbxcp: libAddressBook.jnilib: No such file or directory369893786#18446744073709551615#0#0(6@0"369893786#0#0#0#0#0"0(0#0#73"/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/libAddressBook.jnilib4320133120#371"    cd /Users/Sabersimon/Desktop/cs61c/Proj1_1    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/libAddressBook.jnilib /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Resources/Java1#
+
+CProcessInfoPlistFile /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Info.plist resources/Info.plist
+s369893786.276247
+e369893786.279668
+r1
+xProcessInfoPlistFile
+x/Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Info.plist
+xresources/Info.plist
+lSLF07#2@28"Process resources/Info.plist369893786#369893786#0(0"0(0#0#60"/Users/Sabersimon/Desktop/cs61c/Proj1_1/resources/Info.plist4320133120#315"    cd /Users/Sabersimon/Desktop/cs61c/Proj1_1    builtin-infoPlistUtility resources/Info.plist -genpkginfo /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app/Contents/Info.plist0#
+
+CTouch /Users/Sabersimon/Desktop/cs61c/Proj1_1/build/Debug/Proj1_1.app
+r0
+

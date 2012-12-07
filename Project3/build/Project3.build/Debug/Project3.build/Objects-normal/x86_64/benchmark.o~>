@@ -1,0 +1,8 @@
+/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:8:19: error: cblas.h: No such file or directory
+/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c: In function 'main':
+/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:69: warning: implicit declaration of function 'cblas_sgemm'
+/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:69: error: 'CblasColMajor' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:69: error: (Each undeclared identifier is reported only once
+/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:69: error: for each function it appears in.)
+/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:69: error: 'CblasNoTrans' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:69: error: 'CblasTrans' undeclared (first use in this function)

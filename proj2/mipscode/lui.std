@@ -1,0 +1,16 @@
+Executing instruction at 00400000: 3c08cdef
+lui	$8,0xcdef
+New pc = 00400004
+Updated r08 to cdef0000
+No memory location was updated.
+Executing instruction at 00400004: 00084c02
+srl	$9,$8,16
+New pc = 00400008
+Updated r09 to 0000cdef
+No memory location was updated.
+Executing instruction at 00400008: 3c090def
+lui	$9,0xdef
+New pc = 0040000c
+Updated r09 to 0def0000
+No memory location was updated.
+Executing instruction at 0040000c: 20000000

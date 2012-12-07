@@ -1,0 +1,106 @@
+//ADD_VECTOR original
+ 1 thread(s) took 3.218748 seconds
+ 2 thread(s) took 3.719414 seconds
+ 3 thread(s) took 3.589250 seconds
+ 4 thread(s) took 3.699882 seconds
+ 5 thread(s) took 3.877474 seconds
+ 6 thread(s) took 4.093371 seconds
+ 7 thread(s) took 4.432411 seconds
+ 8 thread(s) took 4.743302 seconds
+ 9 thread(s) took 5.034427 seconds
+ 10 thread(s) took 4.961071 seconds
+ 11 thread(s) took 5.181691 seconds
+ 12 thread(s) took 5.290320 seconds
+ 13 thread(s) took 5.298715 seconds
+ 14 thread(s) took 5.818455 seconds
+ 15 thread(s) took 6.012992 seconds
+ 16 thread(s) took 9.540274 seconds
+
+//ADD_VECTOR adjacent
+ 1 thread(s) took 3.221017 seconds
+ 2 thread(s) took 4.461146 seconds
+ 3 thread(s) took 3.314303 seconds
+ 4 thread(s) took 3.503965 seconds
+ 5 thread(s) took 3.561167 seconds
+ 6 thread(s) took 3.724366 seconds
+ 7 thread(s) took 3.858636 seconds
+ 8 thread(s) took 4.206468 seconds
+ 9 thread(s) took 4.021280 seconds
+ 10 thread(s) took 3.761574 seconds
+ 11 thread(s) took 3.595010 seconds
+ 12 thread(s) took 5.747864 seconds
+ 13 thread(s) took 4.907587 seconds
+ 14 thread(s) took 5.734137 seconds
+ 15 thread(s) took 4.606011 seconds
+ 16 thread(s) took 6.275453 seconds
+
+//ADD_VECTOR chunks
+
+ 1 thread(s) took 3.169053 seconds
+ 2 thread(s) took 1.928807 seconds
+ 3 thread(s) took 1.613549 seconds
+ 4 thread(s) took 1.671503 seconds
+ 5 thread(s) took 1.459107 seconds
+ 6 thread(s) took 1.325244 seconds
+ 7 thread(s) took 1.304104 seconds
+ 8 thread(s) took 1.307342 seconds
+ 9 thread(s) took 1.415453 seconds
+ 10 thread(s) took 1.383193 seconds
+ 11 thread(s) took 1.352645 seconds
+ 12 thread(s) took 1.337809 seconds
+ 13 thread(s) took 1.280094 seconds
+ 14 thread(s) took 1.238870 seconds
+ 15 thread(s) took 1.240293 seconds
+ 16 thread(s) took 1.288877 seconds
+
+//DOT_PRODUCT original bottleneck
+
+ 1 thread(s) took 2.101286 seconds
+ 2 thread(s) took 10.607025 seconds
+ 3 thread(s) took 23.635673 seconds
+ 4 thread(s) took 36.021521 seconds
+ 5 thread(s) took 39.132201 seconds
+ 6 thread(s) took 47.180880 seconds
+ 7 thread(s) took 45.731749 seconds
+ 8 thread(s) took 54.954242 seconds
+
+
+
+//DOT_PRODUCT reduction for w/out reduction
+ 1 thread(s) took 0.170195 seconds
+ 2 thread(s) took 0.114742 seconds
+ 3 thread(s) took 0.096033 seconds
+ 4 thread(s) took 0.052009 seconds
+ 5 thread(s) took 0.051248 seconds
+ 6 thread(s) took 0.066544 seconds
+ 7 thread(s) took 0.067150 seconds
+ 8 thread(s) took 0.048954 seconds
+ 9 thread(s) took 0.035897 seconds
+ 10 thread(s) took 0.029663 seconds
+ 11 thread(s) took 0.026150 seconds
+ 12 thread(s) took 0.025307 seconds
+ 13 thread(s) took 0.022385 seconds
+ 14 thread(s) took 0.023089 seconds
+ 15 thread(s) took 0.020306 seconds
+ 16 thread(s) took 0.176902 seconds
+
+
+
+//DOT_PRODUCT for loop w/ reduction
+ 1 thread(s) took 0.170023 seconds
+ 2 thread(s) took 0.118437 seconds
+ 3 thread(s) took 0.053458 seconds
+ 4 thread(s) took 0.055512 seconds
+ 5 thread(s) took 0.033245 seconds
+ 6 thread(s) took 0.026474 seconds
+ 7 thread(s) took 0.023118 seconds
+ 8 thread(s) took 0.038759 seconds
+ 9 thread(s) took 0.036905 seconds
+ 10 thread(s) took 0.029519 seconds
+ 11 thread(s) took 0.030550 seconds
+ 12 thread(s) took 0.029758 seconds
+ 13 thread(s) took 0.029086 seconds
+ 14 thread(s) took 0.029217 seconds
+ 15 thread(s) took 0.027256 seconds
+ 16 thread(s) took 0.027982 seconds
+

@@ -1,0 +1,23 @@
+    What do the .data and .text directives mean (i.e., what do you put in each section)?  What does the .word directive mean?
+
+.data data subsequent data is stored 
+.word input to be stored as a 32 bit word or boundary
+.text code
+
+    How do you set a breakpoint in MARS? Set a breakpoint on line 15 and show this to your TA when you have answered all of these questions.
+
+the boxes that one checks
+
+    After your program stops because of a breakpoint, how do you resume execution? How do you single-step through your code?
+
+hit green arrow and then for single step green error with 1
+    How can you find out the contents of a register? How do you modify the contents of a register?
+look at the register tab and find the postion and change the value
+
+    At what address is n stored in memory? Calculate the 13th Fibonacci number by modifying this memory location.
+
+$at 0x10010000
+
+    Lines 24 and 26 use a syscall instruction. What is it and how do you use it? (Hint: look up Syscalls inside MARS Help!)
+print integer
+exit (terminate execution)

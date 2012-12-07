@@ -1,0 +1,71 @@
+Nathan Brummel
+cs61c-mh
+HW4
+
+Problem 1
+What floating point numbers are represented by the following bit patterns? Give answer in decimal system, not scientific notation.
+a) 0x00000000
+	0
+b) 0xBFE00000
+	-1.75
+c) 0x7F800000
+	Infinity
+d) 0x40380000
+	2.875
+
+Problem 2
+Write a function in C that converts unsigned integers into a single precision floating point representation using only integer operations. Don’t worry about imprecision in rounding the mantissa.
+
+float unsignedToFloat( unsigned int x ) {
+	
+	unsigned int result = 0;
+	int power = 1;
+	int numb = 0;
+	if(x == 0) {
+		result = 0;
+	}
+	
+	while((1 << power) <= x) {
+		power++;
+	}
+	
+	power--;
+	numb = (x - (1 << power)) << 23;	   
+	numb = numb >> power;    
+	power += 127;          	   
+	power = power << 23;     	 	     
+	
+	return *(float*)&(power | numb);
+}
+
+Problem 3
+What MIPS instructions are represented by the following bit patterns?
+
+				   opcode   rs     rt	      rd      shamt    funct
+a) 0x02AA5A00 ->000000 10101 01010 01011 01000 000000 
+			   sll	  $t3  ,   $t2 ,	  8
+b) 0x21A8FFF9 -> 001000 01100 11000 1111111111111001
+			  addi      	$t8,	  $s4,  65529
+c) 0xAF8B0008 -> 101011 11100  01011 0000000000001000
+	      		   sw	        $t3,	 8($gp)	
+d) 0x02298DE5 -> 000000 10001 01001 10001 10111 100101
+			    or	     $s1, $s1,  $t1         	
+e) 0x31127001 -> 001100 01000 10010 01110 00000 000001
+			   andi      $s2, 0($t1)       
+f) 0x3D35FFFF  -> 001111 01001 10101 1111111111111111
+			   lui	       $s5,   65535
+g) 0x36B5F2AB -> 001101 10101 10101 1111001010101011
+			   ori 	    $s5, $s5, 62123
+Problem 4
+Encode the following instructions into MIPS machine code:
+Address       Machine code           Instruction
+                        (fill in)        
+ 
+0x400000   00001100000100000000001001010000 ~ jal mul    
+                 
+0x401000   00000000100001010010000000100001 ~ mul: addu $a0, $a0, $a1
+0x401004   00100100110001101111111111111111 ~ addiu $a2, $a2, -1
+		    00010100110000001111111111111101
+0x401008   00010100110000001111111111111110  ~ bne $a2, $0, mul
+0x40100c   00000000100000000001000000100000  ~ add $v0, $a0, $0
+0x401010   00000011111000000000000000001000  ~ jr $ra

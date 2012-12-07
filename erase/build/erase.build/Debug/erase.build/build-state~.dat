@@ -1,0 +1,91 @@
+Terase
+v7
+r0
+t370421428.931523
+cCheck dependencies
+cProcessPCH++ /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/erase_Prefix-gyufxlrqzxhtubgwfiollkajbvrr/erase_Prefix.pch.gch erase_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/erase.build/Debug/erase.build/Objects-normal/x86_64/erase.o /Users/Sabersimon/Desktop/cs61c/erase/erase.cp normal x86_64 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D3F606B00000000000000EE
+t1295999083
+s238
+
+N/Users/Sabersimon/Desktop/cs61c/erase/build/Debug/liberase.dylib
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/Objects-normal/x86_64/erase.o
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/Objects-normal/x86_64/liberase.LinkFileList
+c000000005063F7330000000000000068
+t1348728627
+s104
+
+N/Users/Sabersimon/Desktop/cs61c/erase/erase.cp
+c000000005063F733000000000000014B
+t1348728627
+s331
+i<iostream>
+i"erase.h"
+i"erasePriv.h"
+
+N/Users/Sabersimon/Desktop/cs61c/erase/erase.h
+c000000005063F6FE0000000000000148
+t1348728574
+s328
+
+N/Users/Sabersimon/Desktop/cs61c/erase/erasePriv.h
+c000000005063F6FE0000000000000131
+t1348728574
+s305
+
+N/Users/Sabersimon/Desktop/cs61c/erase/erase_Prefix.pch
+c000000005063F6FE0000000000000070
+t1348728574
+s112
+i<iostream>
+
+N/var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/erase_Prefix-gyufxlrqzxhtubgwfiollkajbvrr/erase_Prefix.pch.gch
+t1348728628
+s19804720
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies370421427#370421427#0(0"0(0#1#0"4320133120#0"0#
+
+CCompileC build/erase.build/Debug/erase.build/Objects-normal/x86_64/erase.o /Users/Sabersimon/Desktop/cs61c/erase/erase.cp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s370421428.871026
+e370421428.931269
+r0
+xCompileC
+xbuild/erase.build/Debug/erase.build/Objects-normal/x86_64/erase.o
+x/Users/Sabersimon/Desktop/cs61c/erase/erase.cp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/Sabersimon/Desktop/cs61c/erase/erase.cp:14: error: variable or field 'erase' declared void
+o/Users/Sabersimon/Desktop/cs61c/erase/erase.cp:14: error: 'list' was not declared in this scope
+o/Users/Sabersimon/Desktop/cs61c/erase/erase.cp:14: error: expected primary-expression before 'int'
+o/Users/Sabersimon/Desktop/cs61c/erase/erase.cp:14: error: expected primary-expression before 'int'
+lSLF07#2@54"Compile /Users/Sabersimon/Desktop/cs61c/erase/erase.cp370421428#370421428#0(392"/Users/Sabersimon/Desktop/cs61c/erase/erase.cp:14: error: variable or field 'erase' declared void/Users/Sabersimon/Desktop/cs61c/erase/erase.cp:14: error: 'list' was not declared in this scope/Users/Sabersimon/Desktop/cs61c/erase/erase.cp:14: error: expected primary-expression before 'int'/Users/Sabersimon/Desktop/cs61c/erase/erase.cp:14: error: expected primary-expression before 'int'4(4@39"Variable or field 'erase' declared void370421428#0#98#0(6@46"/Users/Sabersimon/Desktop/cs61c/erase/erase.cp370421427#14#0#14#0#0"0(4@37"'list' was not declared in this scope370421428#98#96#0(6@46"/Users/Sabersimon/Desktop/cs61c/erase/erase.cp370421427#14#0#14#0#34"'*' was not declared in this scope0(4@40"Expected primary-expression before 'int'370421428#194#99#0(6@46"/Users/Sabersimon/Desktop/cs61c/erase/erase.cp370421427#14#0#14#0#19"expected * before *0(4@40"Expected primary-expression before 'int'370421428#293#99#0(6@46"/Users/Sabersimon/Desktop/cs61c/erase/erase.cp370421427#14#0#14#0#19"expected * before *0(0#0#46"/Users/Sabersimon/Desktop/cs61c/erase/erase.cp4320133120#1419"    cd /Users/Sabersimon/Desktop/cs61c/erase    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/liberase-generated-files.hmap -I/Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/liberase-own-target-headers.hmap -I/Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/liberase-all-target-headers.hmap -iquote /Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/liberase-project-headers.hmap -F/Users/Sabersimon/Desktop/cs61c/erase/build/Debug -I/Users/Sabersimon/Desktop/cs61c/erase/build/Debug/include -I/Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/DerivedSources/x86_64 -I/Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/DerivedSources -include /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/erase_Prefix-gyufxlrqzxhtubgwfiollkajbvrr/erase_Prefix.pch -c /Users/Sabersimon/Desktop/cs61c/erase/erase.cp -o /Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/Objects-normal/x86_64/erase.o1#
+
+CLd /Users/Sabersimon/Desktop/cs61c/erase/build/Debug/liberase.dylib normal x86_64
+r0
+
+CProcessPCH++ /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/erase_Prefix-gyufxlrqzxhtubgwfiollkajbvrr/erase_Prefix.pch.gch erase_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+s370421427.291122
+e370421428.870892
+r1
+xProcessPCH++
+x/var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/erase_Prefix-gyufxlrqzxhtubgwfiollkajbvrr/erase_Prefix.pch.gch
+xerase_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile erase_Prefix.pch370421427#370421428#0(0"0(0#0#54"/Users/Sabersimon/Desktop/cs61c/erase/erase_Prefix.pch17218387968#1325"    cd /Users/Sabersimon/Desktop/cs61c/erase    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/liberase-generated-files.hmap -I/Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/liberase-own-target-headers.hmap -I/Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/liberase-all-target-headers.hmap -iquote /Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/liberase-project-headers.hmap -F/Users/Sabersimon/Desktop/cs61c/erase/build/Debug -I/Users/Sabersimon/Desktop/cs61c/erase/build/Debug/include -I/Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/DerivedSources/x86_64 -I/Users/Sabersimon/Desktop/cs61c/erase/build/erase.build/Debug/erase.build/DerivedSources -c /Users/Sabersimon/Desktop/cs61c/erase/erase_Prefix.pch -o /var/folders/g0/q1y0rj7s1px94ydbk9stpzph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/erase_Prefix-gyufxlrqzxhtubgwfiollkajbvrr/erase_Prefix.pch.gch0#
+

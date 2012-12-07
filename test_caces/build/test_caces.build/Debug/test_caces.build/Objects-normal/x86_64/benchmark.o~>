@@ -1,0 +1,9 @@
+/Users/Sabersimon/Documents/cs61c/test_caces/benchmark.c:16:19: error: cblas.h: No such file or directory
+/Users/Sabersimon/Documents/cs61c/test_caces/benchmark.c: In function 'main':
+/Users/Sabersimon/Documents/cs61c/test_caces/benchmark.c:105: warning: implicit declaration of function 'cblas_sgemm'
+/Users/Sabersimon/Documents/cs61c/test_caces/benchmark.c:105: error: 'CblasColMajor' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/test_caces/benchmark.c:105: error: (Each undeclared identifier is reported only once
+/Users/Sabersimon/Documents/cs61c/test_caces/benchmark.c:105: error: for each function it appears in.)
+/Users/Sabersimon/Documents/cs61c/test_caces/benchmark.c:105: error: 'CblasNoTrans' undeclared (first use in this function)
+{standard input}:unknown:Undefined local symbol LC0
+{standard input}:unknown:Undefined local symbol LC1

@@ -1,0 +1,21 @@
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:17:23: error: x86intrin.h: No such file or directory
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c: In function 'square_sgemm':
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:123: warning: implicit declaration of function '_mm_hadd_ps'
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:123: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:124: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:125: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:127: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:128: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:129: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:188: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:189: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:190: error: incompatible type for argument 1 of '_mm_add_ps'
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:279: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:280: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:281: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:283: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:284: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:285: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:287: warning: implicit declaration of function '_MM_EXTRACT_FLOAT'
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:335: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-all.c:20: warning: unused variable 'l'

@@ -1,0 +1,91 @@
+Executing instruction at 00400000: 27bdfff4
+addiu	$29,$29,-12
+New pc = 00400004
+Updated r29 to 00403ff4
+No memory location was updated.
+Executing instruction at 00400004: 3c099876
+lui	$9,0x9876
+New pc = 00400008
+Updated r09 to 98760000
+No memory location was updated.
+Executing instruction at 00400008: 3529abcd
+ori	$9,$9,0xabcd
+New pc = 0040000c
+Updated r09 to 9876abcd
+No memory location was updated.
+Executing instruction at 0040000c: afa90000
+sw	$9,0($29)
+New pc = 00400010
+No register was updated.
+Updated memory at address 00403ff4 to 9876abcd
+Executing instruction at 00400010: 3c091234
+lui	$9,0x1234
+New pc = 00400014
+Updated r09 to 12340000
+No memory location was updated.
+Executing instruction at 00400014: 35290405
+ori	$9,$9,0x405
+New pc = 00400018
+Updated r09 to 12340405
+No memory location was updated.
+Executing instruction at 00400018: afa90004
+sw	$9,4($29)
+New pc = 0040001c
+No register was updated.
+Updated memory at address 00403ff8 to 12340405
+Executing instruction at 0040001c: 3c09abcd
+lui	$9,0xabcd
+New pc = 00400020
+Updated r09 to abcd0000
+No memory location was updated.
+Executing instruction at 00400020: 3529ef01
+ori	$9,$9,0xef01
+New pc = 00400024
+Updated r09 to abcdef01
+No memory location was updated.
+Executing instruction at 00400024: afa90008
+sw	$9,8($29)
+New pc = 00400028
+No register was updated.
+Updated memory at address 00403ffc to abcdef01
+Executing instruction at 00400028: 24080009
+addiu	$8,$0,9
+New pc = 0040002c
+Updated r08 to 00000009
+No memory location was updated.
+Executing instruction at 0040002c: a3a80003
+sb	$8,3($29)
+New pc = 00400030
+No register was updated.
+Updated memory at address 00403ff7 to 0976abcd
+Executing instruction at 00400030: 24080009
+addiu	$8,$0,9
+New pc = 00400034
+Updated r08 to 00000009
+No memory location was updated.
+Executing instruction at 00400034: a3a80004
+sb	$8,4($29)
+New pc = 00400038
+No register was updated.
+Updated memory at address 00403ff8 to 12340409
+Executing instruction at 00400038: 24080009
+addiu	$8,$0,9
+New pc = 0040003c
+Updated r08 to 00000009
+No memory location was updated.
+Executing instruction at 0040003c: a3a80005
+sb	$8,5($29)
+New pc = 00400040
+No register was updated.
+Updated memory at address 00403ff9 to 12340909
+Executing instruction at 00400040: 24080009
+addiu	$8,$0,9
+New pc = 00400044
+Updated r08 to 00000009
+No memory location was updated.
+Executing instruction at 00400044: a3a80006
+sb	$8,6($29)
+New pc = 00400048
+No register was updated.
+Updated memory at address 00403ffa to 12090909
+Executing instruction at 00400048: 20000000

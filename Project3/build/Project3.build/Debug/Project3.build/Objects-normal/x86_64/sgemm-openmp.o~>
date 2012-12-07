@@ -1,0 +1,49 @@
+In file included from /Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:11:
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/nmmintrin.h:35:3: error: #error "SSE4.2 instruction set not enabled"
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c: In function 'sgemm':
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:30: warning: implicit declaration of function 'calloc'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:30: warning: incompatible implicit declaration of built-in function 'calloc'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:34: error: '__m128' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:34: error: (Each undeclared identifier is reported only once
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:34: error: for each function it appears in.)
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:34: error: expected ';' before 'zerovec'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:73: error: expected ';' before 'localsum1'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:74: error: expected ';' before 'localsum2'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:75: error: expected ';' before 'localsum3'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:76: error: expected ';' before 'localsum4'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:77: error: expected ';' before 'localsum1a'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:78: error: expected ';' before 'localsum2a'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:79: error: expected ';' before 'localsum3a'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:80: error: expected ';' before 'localsum4a'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:83: error: 'localsum1' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:83: warning: implicit declaration of function '_mm_add_ps'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:83: warning: implicit declaration of function '_mm_mul_ps'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:83: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:83: warning: implicit declaration of function '_mm_loadu_ps'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:84: error: 'localsum2' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:84: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:85: error: 'localsum3' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:85: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:86: error: 'localsum4' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:86: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:87: error: 'localsum1a' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:87: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:87: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:88: error: 'localsum2a' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:88: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:88: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:89: error: 'localsum3a' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:89: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:89: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:90: error: 'localsum4a' undeclared (first use in this function)
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:90: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:90: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:93: warning: implicit declaration of function '_mm_storeu_ps'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:118: error: expected ';' before 'localsum1'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:119: error: expected ';' before 'localsum1a'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:122: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:122: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:123: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:123: error: expected expression before ')' token
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:67: warning: unused variable 'jroll_limit'
+/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c:136: warning: implicit declaration of function 'free'

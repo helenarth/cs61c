@@ -1,0 +1,31 @@
+Executing instruction at 00400000: 3c081234
+lui	$8,0x1234
+New pc = 00400004
+Updated r08 to 12340000
+No memory location was updated.
+Executing instruction at 00400004: 35085678
+ori	$8,$8,0x5678
+New pc = 00400008
+Updated r08 to 12345678
+No memory location was updated.
+Executing instruction at 00400008: 310a0fab
+andi	$10,$8,0xfab
+New pc = 0040000c
+Updated r10 to 00000628
+No memory location was updated.
+Executing instruction at 0040000c: 3c081234
+lui	$8,0x1234
+New pc = 00400010
+Updated r08 to 12340000
+No memory location was updated.
+Executing instruction at 00400010: 35085678
+ori	$8,$8,0x5678
+New pc = 00400014
+Updated r08 to 12345678
+No memory location was updated.
+Executing instruction at 00400014: 310affab
+andi	$10,$8,0xffab
+New pc = 00400018
+Updated r10 to 00005628
+No memory location was updated.
+Executing instruction at 00400018: 20000000

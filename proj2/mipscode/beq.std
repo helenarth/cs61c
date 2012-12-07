@@ -1,0 +1,56 @@
+Executing instruction at 00400000: 24080001
+addiu	$8,$0,1
+New pc = 00400004
+Updated r08 to 00000001
+No memory location was updated.
+Executing instruction at 00400004: 24090001
+addiu	$9,$0,1
+New pc = 00400008
+Updated r09 to 00000001
+No memory location was updated.
+Executing instruction at 00400008: 240a0001
+addiu	$10,$0,1
+New pc = 0040000c
+Updated r10 to 00000001
+No memory location was updated.
+Executing instruction at 0040000c: 11090001
+beq	$8,$9,0x00400014
+New pc = 00400014
+No register was updated.
+No memory location was updated.
+Executing instruction at 00400014: 254a0001
+addiu	$10,$10,1
+New pc = 00400018
+Updated r10 to 00000002
+No memory location was updated.
+Executing instruction at 00400018: 24080000
+addiu	$8,$0,0
+New pc = 0040001c
+Updated r08 to 00000000
+No memory location was updated.
+Executing instruction at 0040001c: 24090001
+addiu	$9,$0,1
+New pc = 00400020
+Updated r09 to 00000001
+No memory location was updated.
+Executing instruction at 00400020: 240a0001
+addiu	$10,$0,1
+New pc = 00400024
+Updated r10 to 00000001
+No memory location was updated.
+Executing instruction at 00400024: 11090001
+beq	$8,$9,0x0040002c
+New pc = 00400028
+No register was updated.
+No memory location was updated.
+Executing instruction at 00400028: 254a0001
+addiu	$10,$10,1
+New pc = 0040002c
+Updated r10 to 00000002
+No memory location was updated.
+Executing instruction at 0040002c: 254a0001
+addiu	$10,$10,1
+New pc = 00400030
+Updated r10 to 00000003
+No memory location was updated.
+Executing instruction at 00400030: 20000000

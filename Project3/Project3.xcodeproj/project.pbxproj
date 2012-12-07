@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC36AC95163E15E100AA4EEB /* sgemm-openmp.h in Headers */ = {isa = PBXBuildFile; fileRef = EC36AC93163E15E100AA4EEB /* sgemm-openmp.h */; };
+		EC36AC96163E15E100AA4EEB /* sgemm-openmp.c in Sources */ = {isa = PBXBuildFile; fileRef = EC36AC94163E15E100AA4EEB /* sgemm-openmp.c */; };
+		EC47A4AE16352B850073C068 /* sgemm-openmp.h in Headers */ = {isa = PBXBuildFile; fileRef = EC47A4AC16352B850073C068 /* sgemm-openmp.h */; };
+		EC47A4AF16352B850073C068 /* sgemm-openmp1.c in Sources */ = {isa = PBXBuildFile; fileRef = EC47A4AD16352B850073C068 /* sgemm-openmp1.c */; };
+		EC9CF40B16334B3200960B36 /* benchmark.c in Sources */ = {isa = PBXBuildFile; fileRef = EC9CF40316334B3200960B36 /* benchmark.c */; };
+		EC9CF40E16334B3200960B36 /* sgemm-naive.c in Sources */ = {isa = PBXBuildFile; fileRef = EC9CF40716334B3200960B36 /* sgemm-naive.c */; };
+		EC9CF40F16334B3200960B36 /* sum.c in Sources */ = {isa = PBXBuildFile; fileRef = EC9CF40816334B3200960B36 /* sum.c */; };
+		EC9CF41016334B3200960B36 /* tester.c in Sources */ = {isa = PBXBuildFile; fileRef = EC9CF40916334B3200960B36 /* tester.c */; };
+		EC9E27A21630E2D800AAEB82 /* sgemm-small.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9E27A01630E2D800AAEB82 /* sgemm-small.h */; };
+		EC9E27A31630E2D800AAEB82 /* sgemm-small.c in Sources */ = {isa = PBXBuildFile; fileRef = EC9E27A11630E2D800AAEB82 /* sgemm-small.c */; };
+		ECA5394B163DEC9600017FCA /* benchmark.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA53949163DEC9600017FCA /* benchmark.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2AAC046055464E500DB518D /* libProject3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProject3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC36AC93163E15E100AA4EEB /* sgemm-openmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sgemm-openmp.h"; sourceTree = "<group>"; };
+		EC36AC94163E15E100AA4EEB /* sgemm-openmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "sgemm-openmp.c"; sourceTree = "<group>"; };
+		EC47A4AC16352B850073C068 /* sgemm-openmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sgemm-openmp.h"; sourceTree = "<group>"; };
+		EC47A4AD16352B850073C068 /* sgemm-openmp1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "sgemm-openmp1.c"; sourceTree = "<group>"; };
+		EC9CF40316334B3200960B36 /* benchmark.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = benchmark.c; sourceTree = "<group>"; };
+		EC9CF40716334B3200960B36 /* sgemm-naive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "sgemm-naive.c"; sourceTree = "<group>"; };
+		EC9CF40816334B3200960B36 /* sum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sum.c; sourceTree = "<group>"; };
+		EC9CF40916334B3200960B36 /* tester.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tester.c; sourceTree = "<group>"; };
+		EC9CF40A16334B3200960B36 /* testing.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = testing.sh; sourceTree = "<group>"; };
+		EC9E27A01630E2D800AAEB82 /* sgemm-small.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sgemm-small.h"; sourceTree = "<group>"; };
+		EC9E27A11630E2D800AAEB82 /* sgemm-small.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "sgemm-small.c"; sourceTree = "<group>"; };
+		ECA53949163DEC9600017FCA /* benchmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = benchmark.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Project3 */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = Project3;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				ECA53949163DEC9600017FCA /* benchmark.h */,
+				EC47A4AC16352B850073C068 /* sgemm-openmp.h */,
+				EC47A4AD16352B850073C068 /* sgemm-openmp1.c */,
+				EC9E27A01630E2D800AAEB82 /* sgemm-small.h */,
+				EC9CF40316334B3200960B36 /* benchmark.c */,
+				EC9CF40716334B3200960B36 /* sgemm-naive.c */,
+				EC9CF40816334B3200960B36 /* sum.c */,
+				EC36AC93163E15E100AA4EEB /* sgemm-openmp.h */,
+				EC36AC94163E15E100AA4EEB /* sgemm-openmp.c */,
+				EC9CF40916334B3200960B36 /* tester.c */,
+				EC9CF40A16334B3200960B36 /* testing.sh */,
+				EC9E27A11630E2D800AAEB82 /* sgemm-small.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libProject3.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9E27A21630E2D800AAEB82 /* sgemm-small.h in Headers */,
+				EC47A4AE16352B850073C068 /* sgemm-openmp.h in Headers */,
+				ECA5394B163DEC9600017FCA /* benchmark.h in Headers */,
+				EC36AC95163E15E100AA4EEB /* sgemm-openmp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* Project3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "Project3" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project3;
+			productName = Project3;
+			productReference = D2AAC046055464E500DB518D /* libProject3.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "Project3" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Project3 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* Project3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9E27A31630E2D800AAEB82 /* sgemm-small.c in Sources */,
+				EC9CF40B16334B3200960B36 /* benchmark.c in Sources */,
+				EC9CF40E16334B3200960B36 /* sgemm-naive.c in Sources */,
+				EC9CF40F16334B3200960B36 /* sum.c in Sources */,
+				EC9CF41016334B3200960B36 /* tester.c in Sources */,
+				EC47A4AF16352B850073C068 /* sgemm-openmp1.c in Sources */,
+				EC36AC96163E15E100AA4EEB /* sgemm-openmp.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = Project3;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = Project3;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "Project3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "Project3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

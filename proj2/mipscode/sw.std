@@ -1,0 +1,98 @@
+Executing instruction at 00400000: 3c0b0040
+lui	$11,0x40
+New pc = 00400004
+Updated r11 to 00400000
+No memory location was updated.
+Executing instruction at 00400004: 356b1000
+ori	$11,$11,0x1000
+New pc = 00400008
+Updated r11 to 00401000
+No memory location was updated.
+Executing instruction at 00400008: 3c099876
+lui	$9,0x9876
+New pc = 0040000c
+Updated r09 to 98760000
+No memory location was updated.
+Executing instruction at 0040000c: 3529abcd
+ori	$9,$9,0xabcd
+New pc = 00400010
+Updated r09 to 9876abcd
+No memory location was updated.
+Executing instruction at 00400010: ad690000
+sw	$9,0($11)
+New pc = 00400014
+No register was updated.
+Updated memory at address 00401000 to 9876abcd
+Executing instruction at 00400014: 3c091234
+lui	$9,0x1234
+New pc = 00400018
+Updated r09 to 12340000
+No memory location was updated.
+Executing instruction at 00400018: 35290405
+ori	$9,$9,0x405
+New pc = 0040001c
+Updated r09 to 12340405
+No memory location was updated.
+Executing instruction at 0040001c: ad690004
+sw	$9,4($11)
+New pc = 00400020
+No register was updated.
+Updated memory at address 00401004 to 12340405
+Executing instruction at 00400020: 3c09abcd
+lui	$9,0xabcd
+New pc = 00400024
+Updated r09 to abcd0000
+No memory location was updated.
+Executing instruction at 00400024: 3529ef01
+ori	$9,$9,0xef01
+New pc = 00400028
+Updated r09 to abcdef01
+No memory location was updated.
+Executing instruction at 00400028: ad690008
+sw	$9,8($11)
+New pc = 0040002c
+No register was updated.
+Updated memory at address 00401008 to abcdef01
+Executing instruction at 0040002c: 3c081234
+lui	$8,0x1234
+New pc = 00400030
+Updated r08 to 12340000
+No memory location was updated.
+Executing instruction at 00400030: 35080405
+ori	$8,$8,0x405
+New pc = 00400034
+Updated r08 to 12340405
+No memory location was updated.
+Executing instruction at 00400034: ad680004
+sw	$8,4($11)
+New pc = 00400038
+No register was updated.
+Updated memory at address 00401004 to 12340405
+Executing instruction at 00400038: 3c08a1b2
+lui	$8,0xa1b2
+New pc = 0040003c
+Updated r08 to a1b20000
+No memory location was updated.
+Executing instruction at 0040003c: 3508c3d4
+ori	$8,$8,0xc3d4
+New pc = 00400040
+Updated r08 to a1b2c3d4
+No memory location was updated.
+Executing instruction at 00400040: ad680008
+sw	$8,8($11)
+New pc = 00400044
+No register was updated.
+Updated memory at address 00401008 to a1b2c3d4
+Executing instruction at 00400044: 3c08ffff
+lui	$8,0xffff
+New pc = 00400048
+Updated r08 to ffff0000
+No memory location was updated.
+Executing instruction at 00400048: 35080000
+ori	$8,$8,0x0
+New pc = 0040004c
+Updated r08 to ffff0000
+No memory location was updated.
+Executing instruction at 0040004c: ad680006
+sw	$8,6($11)
+Memory Access Exception at 0x0040004c: address 0x00401006

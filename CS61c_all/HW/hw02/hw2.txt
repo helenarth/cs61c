@@ -1,0 +1,119 @@
+//Daniel Nakashima
+//labtime friday 1-3
+
+/*
+Problem 1
+a) 	Convert 1000 1001 in binary to decimal (under the unsigned number representation) and 	hexadecimal.
+	0x89 h
+	(8x16^1) + 9(16^0) = 137 b
+	
+b) 	Convert 35 in decimal to binary and hexadecimal.
+	35 = (2*16^1) + (3*16^0) 
+	=> 0x23 
+	=> 0010 0011 b
+	
+c) 	P&H (Revised 4th) exercise 2.33.2 for option b.
+	
+	convert to pointer based code....
+	void shift(int a[], int n) 
+	{
+		int i=0;
+		for(i=0; i!=n-1; n)
+		{
+			a[i] = a[i+1];
+		}
+	}	
+	
+	
+	void shift_ptr (int *a_ptr, int n)
+	{
+		int i;
+		for (i=0; i<n-1, i++)
+		{
+			(a_ptr+i)* = ((a_ptr+i)+1)*
+		}
+	}
+*/
+#include <stdio.h>
+#include <string.h>
+#define MAX_NAME_LEN 127
+	
+	typedef struct 
+	{
+		char name[MAX_NAME_LEN + 1];
+		unsigned long sid;
+	} Student;
+	
+	/* return the name of student s */
+	const char* getName (const Student* s) 
+	{
+		return s->name;
+	}
+	
+	/* set the name of student s
+	If name is too long, cut off characters after the maximum number of characters allowed.
+	*/
+	void setName(Student* s, const char* name) 
+	{
+		/* fill me in */
+		char *stu_ptr = s->name;
+		const char *name_ptr = name;
+		int index=0;
+		
+		while(*name_ptr!='\0')
+		{
+			if (index >= MAX_NAME_LEN)
+			{
+				stu_ptr[index] = '\0';
+				break;
+            }
+			*(stu_ptr+index) = *name_ptr;
+			name_ptr++;
+			index++;
+		}
+	}
+	
+	/* return the SID of student s */
+	unsigned long getStudentID(const Student* s) 
+	{
+		/* fill me in*/
+		return s->sid;
+	}
+	
+	/* set the SID of student s */
+	void setStudentID(Student* s, unsigned long sid) 
+	{
+		/* fill me in */
+		s->sid = sid;
+	}
+
+int main() 
+{
+	Student s;
+	
+	setName(&s,"daniel\0");
+	setStudentID(&s,123);
+	
+	printf("name is => %s \n",getName(&s));
+	printf("sid is => %d", getStudentID(&s));
+	
+	getchar();
+	return 0;
+}
+
+
+/*
+b) What is the logical error in the following function?
+	
+	Student* makeAndrew(void) 
+	{
+		Student s;
+		
+		setName(&s, "Andrew");
+		setStudentID(&s, 12345678);
+		return &s;
+	}
+	
+	The error is that since you are declaring the variable s within the function the variable s will be destroyed once you exit the function.  So when you return the address to that temp variable s the result will be some form of garbage.
+*/
+	

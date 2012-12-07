@@ -1,0 +1,16 @@
+Executing instruction at 00400000: 240a0005
+addiu	$10,$0,5
+New pc = 00400004
+Updated r10 to 00000005
+No memory location was updated.
+Executing instruction at 00400004: 08100003
+j	0x0040000c
+New pc = 0040000c
+No register was updated.
+No memory location was updated.
+Executing instruction at 0040000c: 01405020
+add	$10,$10,$0
+New pc = 00400010
+Updated r10 to 00000005
+No memory location was updated.
+Executing instruction at 00400010: 20000000

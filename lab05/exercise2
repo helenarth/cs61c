@@ -1,0 +1,7 @@
+main:
+	lw   $t0, 0($a0)
+	ori  $t1, $zero,1 
+	add $t0,$t0,$t1
+	sw $t0, 0($a1)
+	addiu $v0, $zero, 10
+	syscall

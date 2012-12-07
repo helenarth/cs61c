@@ -1,0 +1,76 @@
+Daniel Nakashima cs61c-hi 
+CS61c Hw 6 - Spring 2012
+id# 23118140
+
+Due 4/08 @23:59:59
+Q1: Draw a diagram of a circuit that takes three input bits, corresponding to an integer between 0 and 7. Your circuit should output 1 if the integer is a member of the fibonacci sequence and 0 otherwise. Your circuit should be constructed using NOT, OR, and AND gates, and should use no more than 5 total. Zero is the first member of the fibonnaci Sequence. We encourage you to use Logisim to lay out and test your circuit.
+
+1) 	fibonacci numbers
+	range = 0,1,2,3,4,5,6,7
+	fib = 	0,1,2,3,5
+	nofib = 4,6,7
+	4 = 100
+	6 = 110
+	7 = 111
+	//1 elsewhere
+	
+	A	B	C	FIB
+	1	1	1	0
+	1	1	0	0
+	1	0	1	1
+	1	0	0	0
+	0	1	1	1	
+	0	1	0	1
+	0	0	1	1
+	0	0	0	1
+	
+	* NOTE: not=! *
+	
+	! ( ABC + AB(!C) + A(!B)(!C))
+	! ( A( BC + B(!C) + (!B)(!C)) )
+	! ( A (BC + B(!C) + (!B)(!C)) )
+	! ( A ( (!B)(!C) + B( !C + C) )
+	! ( A ( !B!C + B ) )
+	! ( A ( !B!C + B ) )
+	! ( A ( B + !C ))
+	
+	!A + (!B)C
+	
+
+On your answer, label each input as 1s place, 2s place, or 4s place so we’re clear what you intend.
+Submit this part as a PNG file named hw6.png.  
+
+Q2:  Write a formula in Boolean algebra to define the logical function that takes as input 32 bits x0 to x31, and evalutes to 1 if and only those bits correspond to one of the J-type MIPS instructions on the MIPS Green Card.  (Either J or JAL)  Assume that x0  is the (most significant) bit of the instruction. Note that this is a different convention from the one on the Green Card.5
+Your formula need not involve all the input bits.
+
+opcode for JAL =>	0x02	=>	000010
+opcode for J =>		0x03	=>	000011
+
+let x0,x1....x5 to represent the state of the 6 opcode bits
+using concept of total probability we get...
+
+!x0!x1!x2!x3(x4)!x5 + !x0!x1!x2!x3(x4 x5)
+(!x0!x1!x2!x3)(x4)(x5+!x5)
+(!x0!x1!x2!x3)(x4)
+
+
+Q3. Some versions of MIPS have a conditional move instruction called movz.  A movz $a,$b,$c will copy $b to $a if $c is zero. If $c is nonzero, it is a no-op. See page 383 of the text for more details on conditional move instructions.
+Describe how you would modify the MIPS datapath in Figure 4.51 to support this instruction. Do you need new control signals? If so, specify what they are and what values they should have.
+
+movz $a,$b,$c
+
+	if $c == 0:
+		mov $a, $b
+		(add $a,$b,$0)
+	else:
+		do nothing
+
+Note that an underlying condition must also follow that given any random instruction, the instruction itself must correspond with the movz instruction i.e. opcode.  Thus it follows that the two conditions must be met for there to be a move...
+1) instruction must be movz;
+2) value of $c == 0;
+
+The first condition test occurs within the instruction fetch stage.
+The second condition that tests if the $c is equal to zero similar to beq, is determined in the ALU.
+Both of these must be determined by the time it reaches the write back stage such that if both occur than allow write back else do not.
+Thus you need a control for both the alu and the fetch with appropriate stalls involved such that these conditions are always satisfied.
+	

@@ -1,0 +1,86 @@
+Executing instruction at 00400000: 27bdfff8
+addiu	$29,$29,-8
+New pc = 00400004
+Updated r29 to 00403ff8
+No memory location was updated.
+Executing instruction at 00400004: 3c099876
+lui	$9,0x9876
+New pc = 00400008
+Updated r09 to 98760000
+No memory location was updated.
+Executing instruction at 00400008: 3529abcd
+ori	$9,$9,0xabcd
+New pc = 0040000c
+Updated r09 to 9876abcd
+No memory location was updated.
+Executing instruction at 0040000c: afa90000
+sw	$9,0($29)
+New pc = 00400010
+No register was updated.
+Updated memory at address 00403ff8 to 9876abcd
+Executing instruction at 00400010: 3c090123
+lui	$9,0x123
+New pc = 00400014
+Updated r09 to 01230000
+No memory location was updated.
+Executing instruction at 00400014: 35294567
+ori	$9,$9,0x4567
+New pc = 00400018
+Updated r09 to 01234567
+No memory location was updated.
+Executing instruction at 00400018: afa90004
+sw	$9,4($29)
+New pc = 0040001c
+No register was updated.
+Updated memory at address 00403ffc to 01234567
+Executing instruction at 0040001c: 93a80000
+lbu	$8,0($29)
+New pc = 00400020
+Updated r08 to 000000cd
+No memory location was updated.
+Executing instruction at 00400020: 93a90001
+lbu	$9,1($29)
+New pc = 00400024
+Updated r09 to 000000ab
+No memory location was updated.
+Executing instruction at 00400024: 93aa0002
+lbu	$10,2($29)
+New pc = 00400028
+Updated r10 to 00000076
+No memory location was updated.
+Executing instruction at 00400028: 93ab0003
+lbu	$11,3($29)
+New pc = 0040002c
+Updated r11 to 00000098
+No memory location was updated.
+Executing instruction at 0040002c: 93ac0004
+lbu	$12,4($29)
+New pc = 00400030
+Updated r12 to 00000067
+No memory location was updated.
+Executing instruction at 00400030: 93ad0005
+lbu	$13,5($29)
+New pc = 00400034
+Updated r13 to 00000045
+No memory location was updated.
+Executing instruction at 00400034: 93ae0006
+lbu	$14,6($29)
+New pc = 00400038
+Updated r14 to 00000023
+No memory location was updated.
+Executing instruction at 00400038: 93af0007
+lbu	$15,7($29)
+New pc = 0040003c
+Updated r15 to 00000001
+No memory location was updated.
+Executing instruction at 0040003c: 27bd000c
+addiu	$29,$29,12
+New pc = 00400040
+Updated r29 to 00404004
+No memory location was updated.
+Executing instruction at 00400040: 93affffa
+lbu	$15,-6($29)
+New pc = 00400044
+Updated r15 to 00000023
+No memory location was updated.
+Executing instruction at 00400044: 20000000

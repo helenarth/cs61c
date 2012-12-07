@@ -1,0 +1,176 @@
+1. What floating point numbers are represented by the following bit patterns? Give answer in decimal system, no scientific notation.
+ 
+ floatingpt_form = s[1] exp[8]-127 fraction[23]
+ 
+a) 0x00000000
+	0000 0000 0000 0000 0000 0000 0000 0000 
+	0 | 0000 0000 | 000 0000 0000 0000 0000 0000 
+	= +1 * (1+0) * 2^(0-127)
+	= 0
+
+b) 0xBF800000
+	1011 1111 1000 0000 0000 0000 0000 0000
+	1 | 0111 1111 | 000 0000 0000 0000 0000
+	7F = 7*16+15 
+	= -1 * (1+0) * 2^(127-127)
+	= -1*1*1 = -1
+
+c) 0x7F800000
+	0111 1111 1000 0000 0000 0000 0000 0000
+	0 | 1111 1111 |00000000000000000000000 
+	FF = 255 = -1 = 
+	= +1 *(1+0) * 2^(-1+127) = 1*10^26 
+
+d) 0x44802000
+	0100 0100 1000 0000 0010 0000 0000 0000
+	0 | 1000 1001 | 000 0000 0010 0000 0000 0000
+	89(hex) = -119(dec) = (127-119) = 8
+	= +1 * (1+2^-10) *2^8 = 256.25
+	
+	
+2. Write a function in C that converts unsigned integers into a single precision floating point representation using only integer operations. Don’t worry about imprecision in rounding the mantissa.
+
+	working through example...
+	0x43B28000 = >	0	10000111		01100101000000000000000
+						135-127=8 		2^-2 +2^-3 +2^-6 + 2^-8 = 394.5 *10^-3
+						357 == 2^8 * 	(1+394.5*10^-3)
+	
+	To find exponent we just find the largest power of 2 that will go into value.
+	Next we need to find powers of -2. such that 1 + sum of values will be that value divided by power.
+	
+	#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+#define MAX_EXP 8
+#define BIAS 127
+#define	FRAC_LEN 23
+
+float unsignedToFloat( unsigned int x ) {
+    unsigned int result = 0;	
+    /* Your code here. Don’t use “float” and “double” types! */
+	//note value is always positive ignore firstmost bit???
+	int exp,fraction;
+	int n = -1;
+	int result = 0;
+	
+	for (exp=0; exp<MAX_EXP; exp++)	//returns the value of exponent
+	{
+		if (pow(2,exp) >= x)
+		{break;}
+	}
+	
+	fraction = x-pow(2,exp);  //adjusting for 1-something portion
+	temp = fraction/pow(2,exp);
+	exp += BIAS;		//add bias
+	exp = exp<<22;  //correctly positioned exponent value
+	
+	//next the fractional portion is the difference between the two in binary divided by the bias
+	while(fraction!=0 && abs(n)<FRAC_LEN)
+	{
+		if ((fraction/temp)%pow(2,n)==0)
+		{
+			result++;
+		}
+		result = result<<1;
+		n--;                      
+	}
+	while (result<pow(2,FRAC_LEN); //positions the fractional portion
+	{
+		result = result<<1;
+	}
+	
+	result = fraction + exp;   
+    /* read the result as float and return */
+    return *(float*)&result;
+}
+
+int main()
+{
+	//unsigned int mask = 2147483648+1;
+    //sign_mask=0x8000000000000000;
+    
+    printf("357 == %d",unsignedToFloat(357));
+    
+	getchar();
+	return 0;
+}
+
+
+
+3. What MIPS instructions are represented by the following bit patterns?
+		#NOTES
+		$s0 -$s7	<=>		16-27 (dec)
+		$t0 -$t7	<=>		08-15 (dec)
+ 
+a) 0x000B6FC2
+	0000 0000 0000 1011 0110 1111 1100 0010
+	1st_6bits==0 =>RTYPE; last_6bits==2 => SRL
+	000000  00000 	01011 	01101 	11111 	000010
+	0		0		11		13		15		2
+					11-8= 3=>rs		13-8=5=>rd		15=>shamt
+	SRL		$t3,$t5,15
+	
+b) 0x01285020
+	0000 0001 0010 1000 0101 0000 0010 0000
+	1st_6bits==0 =>RTYPE; last_6bits==32==0x20 => ADD
+	000000		01001	01000  	01010	00000	100000
+	0			9		8		10		0		32
+	*seeabove*	$t1		$t0		$t2
+	ADD		$t2,$t1,$t0
+	
+c) 0x8D09FFFC
+	
+	1000 1101 0000 1001 1111 1111 1111 1100
+	not RTYPE => LW
+	100011 		01000	01001 	(1111 1111 1111 1100)
+				$t0		$t1		-4
+	LW 		$t0, -4($t1)
+	
+d) 0x3322FFFC
+	0011 0011 0010 0010 1111 1111 1111 1100
+	1st_6bits!=0 =>ITYPE; opcode==0xC => ANDI
+	001100 		11001		00010 		1111 1111 1111 1100
+	12			25-16=9		2			-4
+	ANDI	$t1,$v0,-4
+	
+	
+e) 0x2008FFFC
+	0010 0000 0000 1000 1111 1111 1111 1100
+	1st_6bits!=0 =>ITYPE; opcode==0x8 => ADDI
+	001000 	00000	01000 		1111 1111 1111 1100
+			0		8			-4
+	ADDI	$t0,$0,-4
+	
+
+f) 0x24EFFFFC
+	0010 0100 1110 1111 1111 1111 1111 1100
+	1st_6bits!=0 =>ITYPE; opcode==0xF => ADDIU
+	001001 	00111	01111 		1111 1111 1111 1100
+			7		15			65532 (-4)		
+	ADDIU 	$t7,$a3,65532
+	
+g) 0x3C10FFFC
+	0011 1100 0001 0000 1111 1111 1111 1100
+	1st_6bits!=0 =>ITYPE; opcode==0xF => LUI
+	001111	00000	10000 		1111 1111 1111 1100
+			0		16
+	LUI		$s0,-4
+
+	
+	
+4. Encode the following instructions into MIPS machine code:
+ 
+Address   	Machine code         					Instruction
+0x400000    000110 0001000000000000000000					jal 	mul
+			
+0x401000    000000 00100 00100 00101 00000 100001	mul: 	addu 	$a0, $a0, 	$a1
+			
+0x401004    001001 00110 00110 1111111111111111				addiu 	$a2, $a2, 	-1
+			
+0x401008    000101 00110 00000 1111111111111100				bne 	$a2, $0, 	mul =>-4
+			
+0x40100c  	000000 00100 00000 00010 00000 100000			add 	$v0, $a0, 	$0
+
+0x401010    000000 11111 000000000000000 01000 				jr 		$ra
+			

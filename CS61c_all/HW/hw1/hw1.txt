@@ -1,0 +1,133 @@
+Daniel Nakashima
+id# 23118140
+username: cs61c-hi
+TA: Eric Liang
+LAB: 017
+
+PROBLEM 1A
+
+virtual worlds - Today's science fiction application that will be available in the near	future
+
+desktop computers - Personal computer delivering good performance to single users at low cost
+
+servers	- Computer used to run large problems and usually accessed via a network
+
+low-end servers - Desktop computer without screen or keyboard usually accessed via a network
+
+supercomputers - Computers composed of hundreds to thousands of processors and terabytes of memory
+
+terabyte - 2^40 bytes
+
+petabyte - 2^50 bytes
+
+datacenters - Thousands of processors forming a large cluster
+
+embedded computers - Currently the largest class of computer that runs one application or one set of related applications
+
+multicore processors - A microprocessor containing several processors in the same chip
+
+VHDL - Special language used to describe hardware components
+
+RAM - A kind of memory called random access memory
+
+CPU - Part of a computer called central processor unit
+
+operating system - Interface between user's program and hardware providing a variety of services and supervision functions
+
+compiler - Program that translates statements in high-level language to assembly language
+
+bit - Binary digit (0 or 1)
+
+instruction	 - Commands that the processors understand
+
+assembly language - Symbolic representation of machine instructions
+
+machine language - Binary language that the processor can understand
+
+C - High-level language used to write application and system software
+
+assembler - Program that translates symbolic instructions to binary instructions
+
+high-level language - Portable language composed of words and algebraic expressions that must be translated into assembly language before run in a computer
+
+system software - Software layer between the application software and the hardware that includes the operating system and the compilers
+
+application software - Software/programs developed by the users
+
+cobol - High level language for business data processing
+
+fortran - High level language for scientific computation
+
+PROBLEM 1B
+If a computer connected to a 1 gigabit Ethernet network needs to send a 256 Kbytes files, how long would it take.
+256 microseconds
+
+PROBLEM 1C
+Assuming that a cache memory is ten times faster than a DRAM memory, that DRAM is 100,000 times faster than magnetic disk, and that flash memory is 1000 times faster than disk, find how long it takes to read a file from a DRAM, a disk, and a flash memory if it takes 2 microseconds from cache memory.
+DRAM - 20 microseconds
+Disk - 2 seconds
+flash - 2 miliseconds
+
+PROBLEM 1D
+Lots of service providers boast about offering "five nines" of uptime in their service level agreements.
+	1) What does this mean?
+		This means that providers are available 99.999% of the time.
+	2) How much downtime can they tolerate per year without breaking their SLA?
+		They are allowed 5.26 min per year if they are advertising "five nines."
+
+PROBLEM 1E	
+Why do the designs of warehouse scale computers need to be inherently fault-tolerant? Give a quantitative example that shows why (don't just cite a failure rate!).
+The designs must be fault tolerant due to the number of processors running at warehouse scale, failures are to occur very frequently and the software run on these must be able to hide most of those failures from the user.
+Disk drives, for example, can exhibit annualized failure rates higher than 4% [65,
+76]. Different deployments have reported between 1.2 and 16 average server-level restarts per year. (WSCBarrosoHolzle)  Due to the many occurances and reasons explained above it is clear that WSC must be very robust and able to handle failures.
+
+PROBLEM 1F
+Why does Google use desktop-grade hardware, instead of server-grade hardware? What challenges does this decision create?
+The main issue is the cost to performance ratio which can be represented in a number ways.  These representations include power management which is significantly less for desktop scale hardware, and applications that the hardware will be assigned.
+
+PROBLEM 2A
+Give an example of a problem that, while in some sense parallellizable, is not a good fit for MapReduce. Justify your answer.
+A bad fit for MapReduce is any application that requires iteration or recursion.
+An example would be that taken from lecture Matrix Multiply.  You can eliminate 1 dimension of the matrix by mapping each to its own column or row vector (mapping).  But since it still requires multiple iterations every time MapReduce is not a good fit.
+
+
+PROBLEM 2B
+Assume you have a list of key-value pairs of the form (document, text), associating a body of text with the name of a document. Give the format of intermediate key-value pairs, and the pseudocode for the mapper and reducer, that you could use to calculate for each word, how many times it was used across all documents.
+
+format: [key/(word)] : [1]
+
+func mapper(documents):
+	for doc in documents:
+		for word in text:
+			emit (word, 1)
+
+func reducer(key_val_list):
+	for key in values:
+		summer = sum(key[values])	#sum up the values per key which should be a sequence of ones
+		emit(key,summer)
+
+
+PROBLEM 2C
+A fun game to play with your friends is "degrees of Wikipedia separation": given article A and article B, who can get from A to B with the fewest number of clicks? The number of pages you can get to in just a few clicks from a popular article is quite large, larger than you could wrap your head around, so you decide to use a MapReduce framework to search for the optimal path through Wikipedia.
+Assume that you have access to a list of 2-tuples (article-name, outgoing-link) that describe Wikipedia's site graph. Design an algorithm that uses MapReduce to find the pages reachable in n clicks or less from some start page s. You should describe any mappers, reducers, and key-value formats you use in your solution.
+Hint: you may find it useful to think of there being two or more different "classes" of input key-value pairs, one of which will be the (article, outgoing-link) tuples described above. You could tell these classes of key-value pairs apart by having the first part of every key be a type tag, for instance.
+
+#mapper function
+#input list of articles in tuple form, number of clicks used
+func map_article(lst_articles_tuples, num_of_clicks):
+	for art_tuple in lst_articles:
+		if num_of_clicks == 0:
+			emit(art_tuple_tuples[article])
+		else:
+			num_of_clicks -= 1
+			map_article(art_tuple[outgoing_link],num_of_clicks)		
+			#assuming that this takes you to the next page which is also an article with a list of outgoing links
+			
+#intermediate format
+article_name
+			
+#reducer function
+func reduce_article(list_articles)
+	for article in list_articles:
+		emit(article)
+			

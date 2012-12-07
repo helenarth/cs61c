@@ -1,0 +1,9 @@
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-openmp.c: In function 'squarepad_sgemm':
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-openmp.c:91: warning: unused variable 'tempSum7'
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-openmp.c:91: warning: unused variable 'tempSum6'
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-openmp.c:91: warning: unused variable 'tempSum5'
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-openmp.c:90: warning: unused variable 'tempSum4'
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-openmp.c:90: warning: unused variable 'tempSum3'
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-openmp.c:90: warning: unused variable 'tempSum2'
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-openmp.c:90: warning: unused variable 'tempSum1'
+/Users/Sabersimon/Documents/cs61c/test_caces/sgemm-openmp.c:90: warning: unused variable 'tempSum0'

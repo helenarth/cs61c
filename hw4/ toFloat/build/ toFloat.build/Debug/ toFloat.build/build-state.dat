@@ -1,0 +1,118 @@
+T toFloat
+v7
+r0
+t370762485.894488
+cCheck dependencies
+cCompileC "build/ toFloat.build/Debug/ toFloat.build/Objects-normal/x86_64/toFloat.o" "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cLibtool "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/Debug/lib toFloat.a" normal x86_64
+cAnalyze "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D3F606B00000000000000EE
+t1295999083
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/Objects-normal/x86_64/ toFloat.LinkFileList
+c00000000506927A80000000000000077
+t1349068712
+s119
+
+N/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/Objects-normal/x86_64/toFloat.i
+t1349068955
+s27040
+
+N/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/Objects-normal/x86_64/toFloat.o
+t1349069685
+s3340
+
+N/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/Objects-normal/x86_64/untitled.o
+t2
+s0
+
+N/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/StaticAnalyzer/normal/x86_64/toFloat.plist
+t1349069685
+s276
+
+N/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/Debug/lib toFloat.a
+t1349069685
+s3560
+
+N/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c
+c0000000050692B7500000000000003C7
+t1349069685
+s967
+i<stdlib.h>
+i"toFloat.h"
+
+N/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.h
+c000000005068DCF80000000000000085
+t1349049592
+s133
+
+N/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/untitled.c
+c000000005068DC38000000000000009D
+t1349049400
+s157
+i"untitled.h"
+
+N/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/untitled.h
+c000000005068DC380000000000000086
+t1349049400
+s134
+
+C<C0003:'CompileC toFloat.o':P8:W0>
+s370761755.851369
+e370761755.874502
+r1
+xCompileC
+xbuild/ toFloat.build/Debug/ toFloat.build/Objects-normal/x86_64/toFloat.o
+x/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c370761755#370761755#0(0"0(0#0#54"/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c17215383808#1399"    cd "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/ toFloat-generated-files.hmap" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/ toFloat-own-target-headers.hmap" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/ toFloat-all-target-headers.hmap" -iquote "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/ toFloat-project-headers.hmap" "-F/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/Debug" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/Debug/include" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/DerivedSources/x86_64" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/DerivedSources" -fpch-preprocess -E "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c" -o "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/Objects-normal/x86_64/toFloat.i"0#
+
+CAnalyze "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c"
+s370762485.865044
+e370762485.894450
+r1
+xAnalyze
+x/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c
+lSLF07#2@62"Analyze /Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c370762485#370762485#0(0"0(0#0#54"/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c4320133120#1436"    cd "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/ toFloat-generated-files.hmap" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/ toFloat-own-target-headers.hmap" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/ toFloat-all-target-headers.hmap" -iquote "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/ toFloat-project-headers.hmap" "-F/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/Debug" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/Debug/include" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/DerivedSources/x86_64" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/DerivedSources" --analyze "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c" -o "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/StaticAnalyzer/normal/x86_64/toFloat.plist"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies370762485#370762485#0(0"0(0#1#0"4320133120#0"0#
+
+CCompileC "build/ toFloat.build/Debug/ toFloat.build/Objects-normal/x86_64/toFloat.o" "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s370762485.781028
+e370762485.864238
+r1
+xCompileC
+xbuild/ toFloat.build/Debug/ toFloat.build/Objects-normal/x86_64/toFloat.o
+x/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c370762485#370762485#0(498"/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c: In function 'main':/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c:16: warning: implicit declaration of function 'printf'/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c:16: warning: incompatible implicit declaration of built-in function 'printf'/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c: In function 'unsignedToFloat':/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c:25: warning: unused variable 'bucket'3(22@41"Implicit declaration of function 'printf'370762485#76#110#0(6@54"/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c370762485#16#0#16#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'printf'370762485#186#132#0(6@54"/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c370762485#16#0#16#0#0"0(22@24"Unused variable 'bucket'370762485#405#93#0(6@54"/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c370762485#25#0#25#0#19"unused variable '*'0(0#0#54"/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c4320133120#1382"    cd "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/ toFloat-generated-files.hmap" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/ toFloat-own-target-headers.hmap" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/ toFloat-all-target-headers.hmap" -iquote "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/ toFloat-project-headers.hmap" "-F/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/Debug" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/Debug/include" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/DerivedSources/x86_64" "-I/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/DerivedSources" -c "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/toFloat.c" -o "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/Objects-normal/x86_64/toFloat.o"0#
+
+CCompileC "build/ toFloat.build/Debug/ toFloat.build/Objects-normal/x86_64/untitled.o" "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/untitled.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CLibtool "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/Debug/lib toFloat.a" normal x86_64
+s370762485.864306
+e370762485.871431
+r1
+xLibtool
+x/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/Debug/lib toFloat.a
+xnormal
+xx86_64
+lSLF07#2@49"Libtool "build/Debug/lib toFloat.a" normal x86_64370762485#370762485#0(0"0(0#0#0"4320133120#475"    cd "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/Debug" -filelist "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/ toFloat.build/Debug/ toFloat.build/Objects-normal/x86_64/ toFloat.LinkFileList" -o "/Users/Sabersimon/Desktop/cs61c/hw4/ toFloat/build/Debug/lib toFloat.a"0#
+

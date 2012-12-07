@@ -1,0 +1,455 @@
+TProject3
+v7
+r0
+t372460472.670814
+cCheck dependencies
+cCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-small.o /Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/benchmark.o /Users/Sabersimon/Documents/cs61c/Project3/benchmark.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-naive.o /Users/Sabersimon/Documents/cs61c/Project3/sgemm-naive.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sum.o /Users/Sabersimon/Documents/cs61c/Project3/sum.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/tester.o /Users/Sabersimon/Documents/cs61c/Project3/tester.c normal x86_64 c com.apple.compilers.gcc.4_2
+cAnalyze /Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.c
+cAnalyze /Users/Sabersimon/Documents/cs61c/Project3/benchmark.c
+cAnalyze /Users/Sabersimon/Documents/cs61c/Project3/sgemm-naive.c
+cAnalyze /Users/Sabersimon/Documents/cs61c/Project3/sum.c
+cAnalyze /Users/Sabersimon/Documents/cs61c/Project3/tester.c
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D3F606B00000000000000EE
+t1295999083
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004C2399480000000000001E17
+t1277401416
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/emmintrin.h
+c000000004A11EB24000000000000EA8F
+t1242688292
+s60047
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004A11EB240000000000001538
+t1242688292
+s5432
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/nmmintrin.h
+c000000004A11EB240000000000000620
+t1242688292
+s1568
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/omp.h
+c000000004A1199040000000000000AE9
+t1242667268
+s2793
+
+N/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c
+c00000000508DC4AD0000000000001869
+t1351468205
+s6249
+i<stdlib.h>
+i<stdio.h>
+i<string.h>
+i<float.h>
+i<math.h>
+i<time.h>
+i<sys/time.h>
+i<cblas.h>
+
+N/Users/Sabersimon/Documents/cs61c/Project3/benchmark.o
+c000000005083134A0000000000001290
+t1350767434
+s4752
+
+N/Users/Sabersimon/Documents/cs61c/Project3/benchmark_2.c
+c00000000508DB9350000000000001866
+t1351465269
+s6246
+i<stdlib.h>
+i<stdio.h>
+i<string.h>
+i<float.h>
+i<math.h>
+i<time.h>
+i<sys/time.h>
+i<cblas.h>
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Debug/libProject3.a
+t2
+s0
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/Project3.LinkFileList
+c000000005083142D000000000000024E
+t1350767661
+s590
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/benchmark.o
+t2
+s0
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/benchmark_2.o
+t2
+s0
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-naive.o
+t1350767662
+s2684
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-openmp.o
+t2
+s0
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-openmp1.o
+t2
+s0
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-openmp_1.o
+t2
+s0
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-openmp_2.o
+t2
+s0
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-small.o
+t1350767662
+s16008
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sqemm-openmp.o
+t2
+s0
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sqemm-openmp_good.o
+t2
+s0
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sqemm-openmp_old.o
+t2
+s0
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sum.o
+t1350767662
+s9228
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/tester.o
+t2
+s0
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/StaticAnalyzer/normal/x86_64/benchmark.plist
+t2
+s0
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/StaticAnalyzer/normal/x86_64/sgemm-naive.plist
+t1350767662
+s276
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/StaticAnalyzer/normal/x86_64/sgemm-small.plist
+t1350767672
+s276
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/StaticAnalyzer/normal/x86_64/sum.plist
+t1350767662
+s276
+
+N/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/StaticAnalyzer/normal/x86_64/tester.plist
+t2
+s0
+
+N/Users/Sabersimon/Documents/cs61c/Project3/sgemm-naive.c
+c000000005083134A00000000000000BA
+t1350767434
+s186
+
+N/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c
+c00000000508DE1400000000000001532
+t1351475520
+s5426
+i<nmmintrin.h>
+i<string.h>
+i<omp.h>
+i<stdio.h>
+
+N/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.h
+c00000000508DDE61000000000000008B
+t1351474785
+s139
+
+N/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp1.c
+c00000000508DD2170000000000001EEE
+t1351471639
+s7918
+i<nmmintrin.h>
+i<string.h>
+i<omp.h>
+i<stdio.h>
+
+N/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp_1.c
+c0000000050886B080000000000001DAA
+t1351117576
+s7594
+i<nmmintrin.h>
+i<string.h>
+i<omp.h>
+i<stdio.h>
+
+N/Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp_2.c
+c00000000508DB60B0000000000001AAB
+t1351464459
+s6827
+i<nmmintrin.h>
+i<string.h>
+i<omp.h>
+i<stdio.h>
+
+N/Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.c
+c00000000508484A70000000000001EB9
+t1350861991
+s7865
+i<emmintrin.h>
+i<string.h>
+
+N/Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.h
+c000000005080AB58000000000000008A
+t1350609752
+s138
+
+N/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c
+c00000000508DA3460000000000001AA5
+t1351459654
+s6821
+i<nmmintrin.h>
+i<string.h>
+i<omp.h>
+i<stdio.h>
+
+N/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp_good.c
+c00000000508D966C0000000000001B9F
+t1351456364
+s7071
+i<nmmintrin.h>
+i<string.h>
+i<omp.h>
+i<stdio.h>
+
+N/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp_old.c
+c000000005088648E0000000000001E34
+t1351115918
+s7732
+i<nmmintrin.h>
+i<string.h>
+i<omp.h>
+i<stdio.h>
+
+N/Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp_old.h
+c0000000050886453000000000000008F
+t1351115859
+s143
+
+N/Users/Sabersimon/Documents/cs61c/Project3/sum.c
+c000000005081909F0000000000000C0E
+t1350668447
+s3086
+i<stdio.h>
+i<stdlib.h>
+i<time.h>
+i<emmintrin.h>
+
+N/Users/Sabersimon/Documents/cs61c/Project3/tester.c
+c000000005083134C0000000000000A63
+t1350767436
+s2659
+i<stdlib.h>
+i<stdio.h>
+i<string.h>
+i<float.h>
+i<math.h>
+i<time.h>
+i<sys/time.h>
+i<cblas.h>
+
+CAnalyze /Users/Sabersimon/Documents/cs61c/Project3/benchmark.c
+s372460462.586254
+e372460462.779379
+r1
+xAnalyze
+x/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c
+o/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:8:10: fatal error: 'cblas.h' file not found
+o #include <cblas.h>
+o          ^
+o1 error generated.
+lSLF07#2@62"Analyze /Users/Sabersimon/Documents/cs61c/Project3/benchmark.c372460462#372460462#0(150"/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:8:10: fatal error: 'cblas.h' file not found #include <cblas.h>          ^1 error generated.1(25@46"Analyzer skipped this file due to parse errors372460462#18446744073709551615#0#1(25@24"'cblas.h' file not found372460462#18446744073709551615#0#0(6@54"/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c372460234#8#0#8#0#0"0(6@54"/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c372460234#0#0#0#0#0"0(0#0#54"/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c4320133120#1396"    cd /Users/Sabersimon/Documents/cs61c/Project3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-generated-files.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-own-target-headers.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-all-target-headers.hmap -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-project-headers.hmap -F/Users/Sabersimon/Documents/cs61c/Project3/build/Debug -I/Users/Sabersimon/Documents/cs61c/Project3/build/Debug/include -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources/x86_64 -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources --analyze /Users/Sabersimon/Documents/cs61c/Project3/benchmark.c -o /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/StaticAnalyzer/normal/x86_64/benchmark.plist0#
+
+CAnalyze /Users/Sabersimon/Documents/cs61c/Project3/sgemm-naive.c
+s372460462.779453
+e372460462.810139
+r1
+xAnalyze
+x/Users/Sabersimon/Documents/cs61c/Project3/sgemm-naive.c
+lSLF07#2@64"Analyze /Users/Sabersimon/Documents/cs61c/Project3/sgemm-naive.c372460462#372460462#0(0"0(0#0#56"/Users/Sabersimon/Documents/cs61c/Project3/sgemm-naive.c4320133120#1400"    cd /Users/Sabersimon/Documents/cs61c/Project3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-generated-files.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-own-target-headers.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-all-target-headers.hmap -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-project-headers.hmap -F/Users/Sabersimon/Documents/cs61c/Project3/build/Debug -I/Users/Sabersimon/Documents/cs61c/Project3/build/Debug/include -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources/x86_64 -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources --analyze /Users/Sabersimon/Documents/cs61c/Project3/sgemm-naive.c -o /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/StaticAnalyzer/normal/x86_64/sgemm-naive.plist0#
+
+CAnalyze /Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.c
+s372460462.572933
+e372460472.670692
+r1
+xAnalyze
+x/Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.c
+lSLF07#2@64"Analyze /Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.c372460462#372460472#0(0"0(0#0#56"/Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.c4320133120#1400"    cd /Users/Sabersimon/Documents/cs61c/Project3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-generated-files.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-own-target-headers.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-all-target-headers.hmap -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-project-headers.hmap -F/Users/Sabersimon/Documents/cs61c/Project3/build/Debug -I/Users/Sabersimon/Documents/cs61c/Project3/build/Debug/include -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources/x86_64 -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources --analyze /Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.c -o /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/StaticAnalyzer/normal/x86_64/sgemm-small.plist0#
+
+CAnalyze /Users/Sabersimon/Documents/cs61c/Project3/sum.c
+s372460462.810211
+e372460462.869995
+r1
+xAnalyze
+x/Users/Sabersimon/Documents/cs61c/Project3/sum.c
+lSLF07#2@56"Analyze /Users/Sabersimon/Documents/cs61c/Project3/sum.c372460462#372460462#0(0"0(0#0#48"/Users/Sabersimon/Documents/cs61c/Project3/sum.c4320133120#1384"    cd /Users/Sabersimon/Documents/cs61c/Project3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-generated-files.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-own-target-headers.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-all-target-headers.hmap -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-project-headers.hmap -F/Users/Sabersimon/Documents/cs61c/Project3/build/Debug -I/Users/Sabersimon/Documents/cs61c/Project3/build/Debug/include -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources/x86_64 -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources --analyze /Users/Sabersimon/Documents/cs61c/Project3/sum.c -o /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/StaticAnalyzer/normal/x86_64/sum.plist0#
+
+CAnalyze /Users/Sabersimon/Documents/cs61c/Project3/tester.c
+s372460462.870065
+e372460462.903492
+r1
+xAnalyze
+x/Users/Sabersimon/Documents/cs61c/Project3/tester.c
+o/Users/Sabersimon/Documents/cs61c/Project3/tester.c:8:10: fatal error: 'cblas.h' file not found
+o #include <cblas.h>
+o          ^
+o1 error generated.
+lSLF07#2@59"Analyze /Users/Sabersimon/Documents/cs61c/Project3/tester.c372460462#372460462#0(147"/Users/Sabersimon/Documents/cs61c/Project3/tester.c:8:10: fatal error: 'cblas.h' file not found #include <cblas.h>          ^1 error generated.1(25@46"Analyzer skipped this file due to parse errors372460462#18446744073709551615#0#1(25@24"'cblas.h' file not found372460462#18446744073709551615#0#0(6@51"/Users/Sabersimon/Documents/cs61c/Project3/tester.c372460236#8#0#8#0#0"0(6@51"/Users/Sabersimon/Documents/cs61c/Project3/tester.c372460236#0#0#0#0#0"0(0#0#51"/Users/Sabersimon/Documents/cs61c/Project3/tester.c4320133120#1390"    cd /Users/Sabersimon/Documents/cs61c/Project3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-generated-files.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-own-target-headers.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-all-target-headers.hmap -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-project-headers.hmap -F/Users/Sabersimon/Documents/cs61c/Project3/build/Debug -I/Users/Sabersimon/Documents/cs61c/Project3/build/Debug/include -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources/x86_64 -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources --analyze /Users/Sabersimon/Documents/cs61c/Project3/tester.c -o /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/StaticAnalyzer/normal/x86_64/tester.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies372460461#372460461#0(0"0(0#1#0"17207465984#0"0#
+
+CCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/benchmark.o /Users/Sabersimon/Documents/cs61c/Project3/benchmark.c normal x86_64 c com.apple.compilers.gcc.4_2
+s372460461.766081
+e372460462.433975
+r0
+xCompileC
+xbuild/Project3.build/Debug/Project3.build/Objects-normal/x86_64/benchmark.o
+x/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:8:19: error: cblas.h: No such file or directory
+o/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c: In function 'main':
+o/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:61: warning: implicit declaration of function 'cblas_sgemm'
+o/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:61: error: 'CblasColMajor' undeclared (first use in this function)
+o/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:61: error: (Each undeclared identifier is reported only once
+o/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:61: error: for each function it appears in.)
+o/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:61: error: 'CblasNoTrans' undeclared (first use in this function)
+o/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:61: error: 'CblasTrans' undeclared (first use in this function)
+lSLF07#2@62"Compile /Users/Sabersimon/Documents/cs61c/Project3/benchmark.c372460461#372460462#0(872"/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:8:19: error: cblas.h: No such file or directory/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c: In function 'main':/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:61: warning: implicit declaration of function 'cblas_sgemm'/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:61: error: 'CblasColMajor' undeclared (first use in this function)/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:61: error: (Each undeclared identifier is reported only once/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:61: error: for each function it appears in.)/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:61: error: 'CblasNoTrans' undeclared (first use in this function)/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c:61: error: 'CblasTrans' undeclared (first use in this function)5(4@34"Cblas.h: No such file or directory372460462#0#103#0(6@54"/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c372460234#8#0#8#0#28"*: No such file or directory0(22@46"Implicit declaration of function 'cblas_sgemm'372460462#179#115#0(6@54"/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c372460234#61#0#61#0#36"implicit declaration of function '*'0(4@55"'CblasColMajor' undeclared (first use in this function)372460462#294#122#0(6@54"/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c372460234#61#0#61#0#43"'*' undeclared (first use in this function)0(4@54"'CblasNoTrans' undeclared (first use in this function)372460462#632#121#0(6@54"/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c372460234#61#0#61#0#43"'*' undeclared (first use in this function)0(4@52"'CblasTrans' undeclared (first use in this function)372460462#753#119#0(6@54"/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c372460234#61#0#61#0#43"'*' undeclared (first use in this function)0(0#0#54"/Users/Sabersimon/Documents/cs61c/Project3/benchmark.c4320133120#1342"    cd /Users/Sabersimon/Documents/cs61c/Project3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-generated-files.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-own-target-headers.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-all-target-headers.hmap -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-project-headers.hmap -F/Users/Sabersimon/Documents/cs61c/Project3/build/Debug -I/Users/Sabersimon/Documents/cs61c/Project3/build/Debug/include -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources/x86_64 -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources -c /Users/Sabersimon/Documents/cs61c/Project3/benchmark.c -o /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/benchmark.o1#
+
+CCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/benchmark_2.o /Users/Sabersimon/Documents/cs61c/Project3/benchmark_2.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-naive.o /Users/Sabersimon/Documents/cs61c/Project3/sgemm-naive.c normal x86_64 c com.apple.compilers.gcc.4_2
+s372460462.434095
+e372460462.476074
+r1
+xCompileC
+xbuild/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-naive.o
+x/Users/Sabersimon/Documents/cs61c/Project3/sgemm-naive.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Sabersimon/Documents/cs61c/Project3/sgemm-naive.c372460462#372460462#0(0"0(0#0#56"/Users/Sabersimon/Documents/cs61c/Project3/sgemm-naive.c17201324800#1346"    cd /Users/Sabersimon/Documents/cs61c/Project3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-generated-files.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-own-target-headers.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-all-target-headers.hmap -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-project-headers.hmap -F/Users/Sabersimon/Documents/cs61c/Project3/build/Debug -I/Users/Sabersimon/Documents/cs61c/Project3/build/Debug/include -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources/x86_64 -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources -c /Users/Sabersimon/Documents/cs61c/Project3/sgemm-naive.c -o /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-naive.o0#
+
+CCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-openmp.o /Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-openmp1.o /Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp1.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-openmp_1.o /Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp_1.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-openmp_2.o /Users/Sabersimon/Documents/cs61c/Project3/sgemm-openmp_2.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-small.o /Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.c normal x86_64 c com.apple.compilers.gcc.4_2
+s372460461.718392
+e372460462.518281
+r1
+xCompileC
+xbuild/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-small.o
+x/Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.c372460461#372460462#0(0"0(0#0#56"/Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.c17201054464#1346"    cd /Users/Sabersimon/Documents/cs61c/Project3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-generated-files.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-own-target-headers.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-all-target-headers.hmap -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-project-headers.hmap -F/Users/Sabersimon/Documents/cs61c/Project3/build/Debug -I/Users/Sabersimon/Documents/cs61c/Project3/build/Debug/include -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources/x86_64 -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources -c /Users/Sabersimon/Documents/cs61c/Project3/sgemm-small.c -o /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sgemm-small.o0#
+
+CCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sqemm-openmp.o /Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sqemm-openmp_good.o /Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp_good.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sqemm-openmp_old.o /Users/Sabersimon/Documents/cs61c/Project3/sqemm-openmp_old.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sum.o /Users/Sabersimon/Documents/cs61c/Project3/sum.c normal x86_64 c com.apple.compilers.gcc.4_2
+s372460462.476159
+e372460462.586181
+r1
+xCompileC
+xbuild/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sum.o
+x/Users/Sabersimon/Documents/cs61c/Project3/sum.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/Sabersimon/Documents/cs61c/Project3/sum.c372460462#372460462#0(0"0(0#0#48"/Users/Sabersimon/Documents/cs61c/Project3/sum.c4320133120#1330"    cd /Users/Sabersimon/Documents/cs61c/Project3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-generated-files.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-own-target-headers.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-all-target-headers.hmap -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-project-headers.hmap -F/Users/Sabersimon/Documents/cs61c/Project3/build/Debug -I/Users/Sabersimon/Documents/cs61c/Project3/build/Debug/include -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources/x86_64 -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources -c /Users/Sabersimon/Documents/cs61c/Project3/sum.c -o /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/sum.o0#
+
+CCompileC build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/tester.o /Users/Sabersimon/Documents/cs61c/Project3/tester.c normal x86_64 c com.apple.compilers.gcc.4_2
+s372460462.518365
+e372460462.572864
+r0
+xCompileC
+xbuild/Project3.build/Debug/Project3.build/Objects-normal/x86_64/tester.o
+x/Users/Sabersimon/Documents/cs61c/Project3/tester.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/Sabersimon/Documents/cs61c/Project3/tester.c:8:19: error: cblas.h: No such file or directory
+o/Users/Sabersimon/Documents/cs61c/Project3/tester.c: In function 'main':
+o/Users/Sabersimon/Documents/cs61c/Project3/tester.c:72: warning: implicit declaration of function 'cblas_sgemm'
+o/Users/Sabersimon/Documents/cs61c/Project3/tester.c:72: error: 'CblasColMajor' undeclared (first use in this function)
+o/Users/Sabersimon/Documents/cs61c/Project3/tester.c:72: error: (Each undeclared identifier is reported only once
+o/Users/Sabersimon/Documents/cs61c/Project3/tester.c:72: error: for each function it appears in.)
+o/Users/Sabersimon/Documents/cs61c/Project3/tester.c:72: error: 'CblasNoTrans' undeclared (first use in this function)
+o/Users/Sabersimon/Documents/cs61c/Project3/tester.c:72: error: 'CblasTrans' undeclared (first use in this function)
+lSLF07#2@59"Compile /Users/Sabersimon/Documents/cs61c/Project3/tester.c372460462#372460462#0(848"/Users/Sabersimon/Documents/cs61c/Project3/tester.c:8:19: error: cblas.h: No such file or directory/Users/Sabersimon/Documents/cs61c/Project3/tester.c: In function 'main':/Users/Sabersimon/Documents/cs61c/Project3/tester.c:72: warning: implicit declaration of function 'cblas_sgemm'/Users/Sabersimon/Documents/cs61c/Project3/tester.c:72: error: 'CblasColMajor' undeclared (first use in this function)/Users/Sabersimon/Documents/cs61c/Project3/tester.c:72: error: (Each undeclared identifier is reported only once/Users/Sabersimon/Documents/cs61c/Project3/tester.c:72: error: for each function it appears in.)/Users/Sabersimon/Documents/cs61c/Project3/tester.c:72: error: 'CblasNoTrans' undeclared (first use in this function)/Users/Sabersimon/Documents/cs61c/Project3/tester.c:72: error: 'CblasTrans' undeclared (first use in this function)5(4@34"Cblas.h: No such file or directory372460462#0#100#0(6@51"/Users/Sabersimon/Documents/cs61c/Project3/tester.c372460236#8#0#8#0#28"*: No such file or directory0(22@46"Implicit declaration of function 'cblas_sgemm'372460462#173#112#0(6@51"/Users/Sabersimon/Documents/cs61c/Project3/tester.c372460236#72#0#72#0#36"implicit declaration of function '*'0(4@55"'CblasColMajor' undeclared (first use in this function)372460462#285#119#0(6@51"/Users/Sabersimon/Documents/cs61c/Project3/tester.c372460236#72#0#72#0#43"'*' undeclared (first use in this function)0(4@54"'CblasNoTrans' undeclared (first use in this function)372460462#614#118#0(6@51"/Users/Sabersimon/Documents/cs61c/Project3/tester.c372460236#72#0#72#0#43"'*' undeclared (first use in this function)0(4@52"'CblasTrans' undeclared (first use in this function)372460462#732#116#0(6@51"/Users/Sabersimon/Documents/cs61c/Project3/tester.c372460236#72#0#72#0#43"'*' undeclared (first use in this function)0(0#0#51"/Users/Sabersimon/Documents/cs61c/Project3/tester.c4320133120#1336"    cd /Users/Sabersimon/Documents/cs61c/Project3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-generated-files.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-own-target-headers.hmap -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-all-target-headers.hmap -iquote /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Project3-project-headers.hmap -F/Users/Sabersimon/Documents/cs61c/Project3/build/Debug -I/Users/Sabersimon/Documents/cs61c/Project3/build/Debug/include -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources/x86_64 -I/Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/DerivedSources -c /Users/Sabersimon/Documents/cs61c/Project3/tester.c -o /Users/Sabersimon/Documents/cs61c/Project3/build/Project3.build/Debug/Project3.build/Objects-normal/x86_64/tester.o1#
+
+CLibtool /Users/Sabersimon/Documents/cs61c/Project3/build/Debug/libProject3.a normal x86_64
+r0
+

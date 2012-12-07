@@ -1,0 +1,12 @@
+Problem 2
+~(~(x0x1x2x3)x4)
+
+Problem 3
+I would make RegWr = 0 by default.  The input of an instruction would send a signal to change RegWr =1 if needed.  Then one would have two cases:
+
+case 1:
+$c != 0 than no-op.  Therefore, RegWr ==0 by default, signal would be 0.  Therefore, nothing will be written to from the register and nothing happens
+
+case 2:
+$c == 0 then the signal to RegWr =1; therefore, the value of $b will get copied to $a. 
+

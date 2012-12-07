@@ -1,0 +1,11 @@
+/Users/Sabersimon/Documents/cs61c/test_caces/test.c:16:23: error: x86intrin.h: No such file or directory
+/Users/Sabersimon/Documents/cs61c/test_caces/test.c: In function 'main':
+/Users/Sabersimon/Documents/cs61c/test_caces/test.c:22: warning: implicit declaration of function 'f'
+/Users/Sabersimon/Documents/cs61c/test_caces/test.c: At top level:
+/Users/Sabersimon/Documents/cs61c/test_caces/test.c:26: warning: conflicting types for 'f'
+/Users/Sabersimon/Documents/cs61c/test_caces/test.c:22: warning: previous implicit declaration of 'f' was here
+/Users/Sabersimon/Documents/cs61c/test_caces/test.c: In function 'f':
+/Users/Sabersimon/Documents/cs61c/test_caces/test.c:32: warning: implicit declaration of function '_mm_hadd_ps'
+/Users/Sabersimon/Documents/cs61c/test_caces/test.c:32: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/test.c:33: error: incompatible types in assignment
+/Users/Sabersimon/Documents/cs61c/test_caces/test.c:38: warning: implicit declaration of function '_MM_EXTRACT_FLOAT'
