@@ -11,7 +11,7 @@ int main()
 		    break;
 		}
 		     
-	    printf("%d NIGGA \n",i);
+	    printf("%d BANANA \n",i);
 	}
 
     return 0;
